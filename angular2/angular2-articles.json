@@ -1,0 +1,101 @@
+[
+  {
+    "show":false,
+    "title":"",
+    "description": "",
+    "url":"",
+    "seed":{
+      "tupe":"",
+      "repo":""
+    }
+  },{
+    "show":true,
+    "title":"Curated list of resources for learning how to Angular2",
+    "description": "",
+    "url":"http://www.angular2.com/",
+    "seed":{
+      "tupe":"",
+      "repo":""
+    }
+  },
+  {
+    "show": true,
+    "description": "",
+    "title":"mgechev/angular2-seed",
+    "url":"",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/mgechev/angular2-seed"
+    }
+  },
+  {
+    "show":true,
+    "description": "",
+    "title":"Creating a Super Simple Todo app Using Angular 2 —Tutorial",
+    "url":"http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/angular/quickstart"
+    }
+  },
+  {
+    "show":true,
+    "title":"angular2-sandbox",
+    "description": "A very simple sandbox to get your hands dirty with AngularJS 2.0 Alpha",
+    "url":"",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/gionkunz/angular2-sandbox.git"
+    }
+  },
+  {
+    "show":true,
+    "title":"Developing a tabs component in Angular 2",
+    "description": "",
+    "url":"http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/thoughtram/angular-tabs"
+    }
+  },,
+  {
+    "show":true,
+    "title":"Dependency Injection in Angular 2",
+    "description": "",
+    "url":"http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html",
+    "seed":{
+      "tupe":"",
+      "repo":""
+    }
+  },
+  {
+    "show":true,
+    "title":"An Introduction to Angular 2",
+    "description": "",
+    "url":"http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/angular-tips/GermanWords-frontend-angular-2"
+    }
+  },
+  {
+    "show":true,
+    "title":"Getting Started with Angular 2.0",
+    "description": "",
+    "url":"http://thejackalofjavascript.com/getting-started-with-angular-2-0/",
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/arvindr21/ng2"
+    }
+  },
+  {
+    "show":true,
+    "title":"Injecting Parents into Angular2 Components",
+    "description": "",
+    "url":"http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html",
+    "seed":{
+      "tupe":"",
+      "repo":""
+    }
+  }
+]
