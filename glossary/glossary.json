@@ -15,6 +15,13 @@
   },
   "items":[
     {
+      "term":"jspm",
+      "definition":"jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "reference":"http://jspm.io/",
+      "tags":["ES6", "loading", "package manager"],
+      "show": false
+    },
+    {
       "term":"Angular",
       "definition":"Angular is a development platform for building mobile and desktop web applications",
       "reference":"https://angular.io/",
