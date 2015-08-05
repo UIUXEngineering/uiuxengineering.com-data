@@ -97,5 +97,15 @@
       "tupe":"",
       "repo":""
     }
+  },
+  {
+    "show":true,
+    "title":"ng-book2 getting started app",
+    "description": "",
+    "url":"https://github.com/fcoury/angular2-reddit",
+    "seed":{
+      "tupe":"",
+      "repo":"https://github.com/fcoury/angular2-reddit"
+    }
   }
 ]
