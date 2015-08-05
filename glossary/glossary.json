@@ -1,19 +1,35 @@
-[
-  {
-    "term":"",
-    "definition":"",
-    "reference":"",
-    "tags":[""]
-  },{
-    "term":"SystemJS",
-    "definition":"Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-    "reference":"https://github.com/systemjs/systemjs",
-    "tags":["ES6", "loading", "loader", "AMD", "CommonJS"]
+{
+  "schema": {
+    "term":"string: Work or phrase to be defined.",
+    "definition":"string: Definition of term.",
+    "reference":"string: Url reference link to term.",
+    "tags":"array<string>: taxonomy words or phrases",
+    "show": "boolean: to show definition or not in client ui",
+    "structure":{
+      "term":"",
+      "definition":"",
+      "reference":"",
+      "tags":[""],
+      "show": false
+    }
   },
-  {
-    "term":"Traceur",
-    "definition":"Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur\'s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-    "reference":"https://github.com/google/traceur-compiler",
-    "tags":["build", "ES6"]
-  }
-]
+  "items":[
+    {
+      "term":"Angular",
+      "definition":"Angular is a development platform for building mobile and desktop web applications",
+      "reference":"https://angular.io/",
+      "tags":["angular"]
+    },{
+      "term":"SystemJS",
+      "definition":"Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "reference":"https://github.com/systemjs/systemjs",
+      "tags":["ES6", "loading", "loader", "AMD", "CommonJS"]
+    },
+    {
+      "term":"Traceur",
+      "definition":"Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur\'s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "reference":"https://github.com/google/traceur-compiler",
+      "tags":["build", "ES6"]
+    }
+  ]
+}
