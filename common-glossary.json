@@ -10,7 +10,7 @@
       "definition":"",
       "reference":"",
       "tags":[""],
-      "show": false
+      "show": true
     }
   },
   "items":[
@@ -19,24 +19,27 @@
       "definition":"jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
       "reference":"http://jspm.io/",
       "tags":["ES6", "loading", "package manager"],
-      "show": false
+      "show": true
     },
     {
       "term":"Angular",
       "definition":"Angular is a development platform for building mobile and desktop web applications",
       "reference":"https://angular.io/",
-      "tags":["angular"]
+      "tags":["angular"],
+      "show": true
     },{
       "term":"SystemJS",
       "definition":"Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
       "reference":"https://github.com/systemjs/systemjs",
-      "tags":["ES6", "loading", "loader", "AMD", "CommonJS"]
+      "tags":["ES6", "loading", "loader", "AMD", "CommonJS"],
+      "show": true
     },
     {
       "term":"Traceur",
       "definition":"Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur\'s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
       "reference":"https://github.com/google/traceur-compiler",
-      "tags":["build", "ES6"]
+      "tags":["build", "ES6"],
+      "show": true
     }
   ]
 }
