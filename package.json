@@ -1,0 +1,28 @@
+{
+  "name": "uiuxengineering.com-data",
+  "version": "1.0.0",
+  "description": "Data for uiuxengineering.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UIUXEngineering/uiuxengineering.com-data.git"
+  },
+  "keywords": [
+    "UI",
+    "UX",
+    "Engineering",
+    "uiux"
+  ],
+  "author": "Jerry Orta <jerryorta.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UIUXEngineering/uiuxengineering.com-data/issues"
+  },
+  "homepage": "https://github.com/UIUXEngineering/uiuxengineering.com-data#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
