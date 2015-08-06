@@ -2,7 +2,16 @@
   {
     "term":"Law of Demeter",
     "definition":"The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
-    "reference":"https://en.wikipedia.org/wiki/Law_of_Demeter",
+    "referencea":[
+      {
+        "title": "Law of Demeter",
+        "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+      }
+    ],
+    "seed":{
+      "tupe":"",
+      "repo":""
+    },
     "tags":["Design Patterns"],
     "type":"article",
     "show": true
@@ -10,7 +19,16 @@
   {
     "term":"Skinny Controller, Fat Model",
     "definition":"The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
-    "reference":"http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model",
+    "referencea":[
+      {
+        "title": "Skinny controller fat model",
+        "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
+      }
+    ],
+    "seed":{
+      "tupe":"",
+      "repo":""
+    },
     "type": "article",
     "tags":["Design Patterns"],
     "show": true

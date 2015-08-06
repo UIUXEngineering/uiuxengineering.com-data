@@ -12,7 +12,10 @@
     "seed":{
       "tupe":"",
       "repo":""
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show": true,
@@ -27,7 +30,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/mgechev/angular2-seed"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -42,7 +48,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/angular/quickstart"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -57,7 +66,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/gionkunz/angular2-sandbox.git"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -72,7 +84,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/thoughtram/angular-tabs"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -87,7 +102,10 @@
     "seed":{
       "tupe":"",
       "repo":""
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -102,7 +120,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/angular-tips/GermanWords-frontend-angular-2"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -117,7 +138,10 @@
     "seed":{
       "tupe":"git",
       "repo":"https://github.com/arvindr21/ng2"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -132,7 +156,10 @@
     "seed":{
       "tupe":"",
       "repo":""
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   },
   {
     "show":true,
@@ -147,6 +174,9 @@
     "seed":{
       "tupe":"",
       "repo":"https://github.com/fcoury/angular2-reddit"
-    }
+    },
+    "tags":[""],
+    "type":"",
+    "show": true
   }
 ]

@@ -69,8 +69,9 @@
         "url": "https://www.timroes.de/2015/07/29/using-ecmascript-6-es6-with-angularjs-1-x/"
       }
     ],
-    "seed": {
-      "type": "https://github.com/timroes/angular-es6-sample"
+    "seed":{
+      "tupe":"git",
+      "repo":"https://github.com/timroes/angular-es6-sample"
     }
   }
 ]

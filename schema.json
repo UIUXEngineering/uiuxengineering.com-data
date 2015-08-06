@@ -1,23 +1,88 @@
 {
-  "definitions": {
-    "term":"string: Work or phrase to be defined.",
-    "definition":"string: Definition of term.",
-    "reference":"string: Url reference link to term.",
-    "tags":"array<string>: taxonomy words or phrases",
-    "show": "boolean: to show definition or not in client ui",
-    "type":"string: article, repo, definition"
+  "structure": {
+    "title": "UIUX Engineering Data Schema",
+    "type": "object",
+    "properties": {
+      "term": {
+        "type": "string",
+        "description": "Term to be defined."
+      },
+      "definition": {
+        "type": "string",
+        "description": "Definition of term."
+      },
+      "references": {
+        "type": "array",
+        "description": "Array of url titles and links.",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ]
+      },
+      "seed": {
+        "type": "object",
+        "description": "Code repository.",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "server": {
+            "type": "string",
+            "description": "github, bitbucket, tfs"
+          },
+          "type": {
+            "type": "string",
+            "description": "git, svn"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "description": "taxonomy words or phrases"
+      },
+      "dataSet": {
+        "type":"string",
+        "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
+      }
+    },
+    "required": [
+      "term"
+    ]
   },
-  "structure":{
-    "term":"",
-    "definition":"",
-    "referencea":[
+  "copy": {
+    "term": "",
+    "definition": "",
+    "references": [
       {
         "title": "",
         "url": ""
       }
     ],
-    "tags":[""],
-    "type":"",
+    "seed": {
+      "title": "",
+      "server": "",
+      "tupe": "",
+      "url": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
     "show": true
   }
 }
