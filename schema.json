@@ -10,7 +10,12 @@
   "structure":{
     "term":"",
     "definition":"",
-    "reference":"",
+    "referencea":[
+      {
+        "title": "",
+        "url": ""
+      }
+    ],
     "tags":[""],
     "type":"",
     "show": true
