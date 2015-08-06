@@ -1,0 +1,16 @@
+{
+  "term":"string: Work or phrase to be defined.",
+  "definition":"string: Definition of term.",
+  "reference":"string: Url reference link to term.",
+  "tags":"array<string>: taxonomy words or phrases",
+  "show": "boolean: to show definition or not in client ui",
+  "type":"string: article, repo, definition",
+  "structure":{
+    "term":"",
+    "definition":"",
+    "reference":"",
+    "tags":[""],
+    "type":"",
+    "show": true
+  }
+}

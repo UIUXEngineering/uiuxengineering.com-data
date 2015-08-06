@@ -1,15 +1,6 @@
 [
   {
     "show": false,
-    "title": "",
-    "description": "",
-    "url": "",
-    "seed": {
-      "type": "",
-      "repo": ""
-    }
-  },{
-    "show": false,
     "title": "How to start writing apps with ES6, Angular 1.x and JSPM",
     "description": "",
     "url": "http://martinmicunda.com/2015/02/09/how-to-start-writing-apps-with-es6-angular-1x-and-jspm/",

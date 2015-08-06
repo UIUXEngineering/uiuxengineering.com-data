@@ -1,14 +1,5 @@
 [
   {
-    "show":false,
-    "title":"",
-    "description": "",
-    "url":"",
-    "seed":{
-      "tupe":"",
-      "repo":""
-    }
-  },{
     "show":true,
     "title":"Curated list of resources for learning how to Angular2",
     "description": "",
