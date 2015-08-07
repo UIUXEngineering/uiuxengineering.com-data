@@ -30,7 +30,7 @@
   ],
   "seed": {
     "title": "FredKSchott/the-node-way",
-    "server":github "",
+    "server":"github",
     "tupe": "git",
     "url": "https://github.com/FredKSchott/the-node-way"
   },
