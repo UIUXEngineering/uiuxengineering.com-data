@@ -396,6 +396,48 @@
   ],
   "design-patterns/design-patterns": [
     {
+      "term": "The Node Way",
+      "definition": "",
+      "references": [
+        {
+          "title": "The Node Way",
+          "url": "http://thenodeway.io/"
+        }
+      ],
+      "seed": {
+        "title": "",
+        "server": "",
+        "tupe": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "",
+      "show": true
+    },
+    {
+      "term": "The strange world of Node.js design patterns",
+      "definition": "",
+      "references": [
+        {
+          "title": "The strange world of Node.js design patterns",
+          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
+        }
+      ],
+      "seed": {
+        "title": "FredKSchott/the-node-way",
+        "server": "github",
+        "tupe": "git",
+        "url": "https://github.com/FredKSchott/the-node-way"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "",
+      "show": true
+    },
+    {
       "term": "Law of Demeter",
       "definition": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
       "references": [
