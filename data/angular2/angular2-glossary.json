@@ -3,7 +3,7 @@
     "term": "*",
     "definition": "Use directive on current Attribute",
     "snippet": "@View({\ndirectives: [NgFor],\n\ttemplate: `\n\t\t<ul>\n\t\t\t<li *ng-for=\"#name of names\">Hello {{ name }}</li>\n\t\t</ul>\n\t`\n})",
-    "referencea": [
+    "references": [
       {
         "title": "",
         "url": ""
@@ -22,7 +22,7 @@
     "term": "#",
     "definition": "Reference. When we say \"#name of names\" we’re saying loop over each element in names and assign each one to a variable called name.",
     "snippet": "@View({\ndirectives: [NgFor],\n\ttemplate: `\n\t\t<ul>\n\t\t\t<li *ng-for=\"#name of names\">Hello {{ name }}</li>\n\t\t</ul>\n\t`\n})",
-    "referencea": [
+    "references": [
       {
         "title": "",
         "url": ""

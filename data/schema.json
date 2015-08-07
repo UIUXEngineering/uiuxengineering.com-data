@@ -1,24 +1,24 @@
 {
     "title": "UIUX Engineering Data Schema",
-    "type": "object",
+    "type": "Object",
     "properties": {
       "term": {
-        "type": "string",
+        "type": "String",
         "description": "Term to be defined."
       },
       "definition": {
-        "type": "string",
+        "type": "String",
         "description": "Definition of term."
       },
       "references": {
-        "type": "array",
+        "type": "Array",
         "description": "Array of url titles and links.",
-        "properties": {
+        "ArrayProperties": {
           "title": {
-            "type": "string"
+            "type": "String"
           },
           "url": {
-            "type": "string"
+            "type": "String"
           }
         },
         "required": [
@@ -27,22 +27,22 @@
         ]
       },
       "seed": {
-        "type": "object",
+        "type": "Object",
         "description": "Code repository.",
         "properties": {
           "title": {
-            "type": "string"
+            "type": "String"
           },
           "server": {
-            "type": "string",
+            "type": "String",
             "description": "github, bitbucket, tfs"
           },
           "type": {
-            "type": "string",
+            "type": "String",
             "description": "git, svn"
           },
           "url": {
-            "type": "string"
+            "type": "String"
           }
         },
         "required": [
@@ -51,11 +51,11 @@
         ]
       },
       "tags": {
-        "type": "array",
+        "type": "Array",
         "description": "taxonomy words or phrases"
       },
       "dataSet": {
-        "type":"string",
+        "type":"String",
         "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
       }
     },

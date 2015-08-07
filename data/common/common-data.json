@@ -2,7 +2,7 @@
   {
     "term":"jspm",
     "definition":"jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
-    "referencea":[
+    "references":[
       {
         "title": "jspm.io",
         "url": "http://jspm.io/"
@@ -19,7 +19,7 @@
   {
     "term":"Angular",
     "definition":"Angular is a development platform for building mobile and desktop web applications",
-    "referencea":[
+    "references":[
       {
         "title": "angular.io",
         "url":"https://angular.io/"
@@ -35,7 +35,7 @@
   },{
   "term":"SystemJS",
   "definition":"Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-  "referencea":[
+  "references":[
     {
       "title": "SystemJS",
       "url": "https://github.com/systemjs/systemjs"
@@ -51,8 +51,8 @@
 },
   {
     "term":"Traceur",
-    "definition":"Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur\'s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-    "referencea":[
+    "definition":"Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+    "references":[
       {
         "title": "Traceur Compiler",
         "url": "https://github.com/google/traceur-compiler"

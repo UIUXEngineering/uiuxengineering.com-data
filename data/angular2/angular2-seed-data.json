@@ -3,7 +3,7 @@
     "show":true,
     "title":"Curated list of resources for learning how to Angular2",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "Angular 2",
         "url":"http://www.angular2.com/"
@@ -21,7 +21,7 @@
     "show": true,
     "description": "",
     "title":"mgechev/angular2-seed",
-    "referencea":[
+    "references":[
       {
         "title": "",
         "url": ""
@@ -39,7 +39,7 @@
     "show":true,
     "description": "",
     "title":"Creating a Super Simple Todo app Using Angular 2 —Tutorial",
-    "referencea":[
+    "references":[
       {
         "title": "Todo app Angular 2 tutorial",
         "url":"http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial"
@@ -57,7 +57,7 @@
     "show":true,
     "title":"angular2-sandbox",
     "description": "A very simple sandbox to get your hands dirty with AngularJS 2.0 Alpha",
-    "referencea":[
+    "references":[
       {
         "title": "",
         "url": ""
@@ -75,7 +75,7 @@
     "show":true,
     "title":"Developing a tabs component in Angular 2",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "Angular 2 - developing tabs",
         "url":"http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html"
@@ -93,7 +93,7 @@
     "show":true,
     "title":"Dependency Injection in Angular 2",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "Angular 2 - dependency injection",
         "url":"http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html"
@@ -111,7 +111,7 @@
     "show":true,
     "title":"An Introduction to Angular 2",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "Angular 2 - introduction",
         "url":"http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/"
@@ -129,7 +129,7 @@
     "show":true,
     "title":"Getting Started with Angular 2.0",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "Angular 2 - getting started",
         "url":"http://thejackalofjavascript.com/getting-started-with-angular-2-0/"
@@ -147,7 +147,7 @@
     "show":true,
     "title":"Injecting Parents into Angular2 Components",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "",
         "url":"http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html"
@@ -165,7 +165,7 @@
     "show":true,
     "title":"ng-book2 getting started app",
     "description": "",
-    "referencea":[
+    "references":[
       {
         "title": "",
         "url": "https://github.com/fcoury/angular2-reddit"

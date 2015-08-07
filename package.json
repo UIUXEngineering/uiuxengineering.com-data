@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/UIUXEngineering/uiuxengineering.com-data#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "fs-extra": "^0.22.1",
+    "gulp": "^3.9.0",
+    "gulp-jsoncombine": "^1.0.2"
   }
 }
