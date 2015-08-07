@@ -15,7 +15,7 @@ gulp.task('build', function() {
             var schemaObject = data.schema;
             delete data.schema;
 
-            var collection = dataCollection.createCollection( schemaObject, data);
+            var collection = dataCollection.createCollection( data, schemaObject);
 
             //console.log( collection );
 

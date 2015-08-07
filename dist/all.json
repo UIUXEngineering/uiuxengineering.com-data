@@ -13,8 +13,7 @@
       "seed": {
         "type": "git",
         "repo": "https://github.com/martinmicunda/employee-scheduling-ui"
-      },
-      "dataSet": "angular1/angular1-data"
+      }
     },
     {
       "show": true,
@@ -29,8 +28,7 @@
       "seed": {
         "type": "git",
         "repo": "https://github.com/origin1tech/jspm-angular-seed"
-      },
-      "dataSet": "angular1/angular1-data"
+      }
     },
     {
       "show": true,
@@ -45,8 +43,7 @@
       "seed": {
         "type": "",
         "repo": ""
-      },
-      "dataSet": "angular1/angular1-data"
+      }
     },
     {
       "show": true,
@@ -61,8 +58,7 @@
       "seed": {
         "type": "git",
         "repo": "https://github.com/thoughtram/es6-babel-browserify-boilerplate"
-      },
-      "dataSet": "angular1/angular1-data"
+      }
     },
     {
       "show": true,
@@ -77,8 +73,7 @@
       "seed": {
         "tupe": "git",
         "repo": "https://github.com/timroes/angular-es6-sample"
-      },
-      "dataSet": "angular1/angular1-data"
+      }
     }
   ],
   "angular2/angular2-glossary": [
@@ -99,8 +94,7 @@
       "tags": [
         "@View"
       ],
-      "show": true,
-      "dataSet": "angular2/angular2-glossary"
+      "show": true
     },
     {
       "term": "#",
@@ -120,8 +114,7 @@
         "@View"
       ],
       "type": "",
-      "show": true,
-      "dataSet": "angular2/angular2-glossary"
+      "show": true
     }
   ],
   "angular2/angular2-seed-data": [
@@ -142,8 +135,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -162,8 +154,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -182,8 +173,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -202,8 +192,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -222,8 +211,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -242,8 +230,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -262,8 +249,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -282,8 +268,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -302,8 +287,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
+      "type": ""
     },
     {
       "show": true,
@@ -322,50 +306,7 @@
       "tags": [
         ""
       ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
-    }
-  ],
-  "design-patterns/design-patterns": [
-    {
-      "term": "Law of Demeter",
-      "definition": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
-      "references": [
-        {
-          "title": "Law of Demeter",
-          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
-        }
-      ],
-      "seed": {
-        "tupe": "",
-        "repo": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "type": "article",
-      "show": true,
-      "dataSet": "design-patterns/design-patterns"
-    },
-    {
-      "term": "Skinny Controller, Fat Model",
-      "definition": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
-      "references": [
-        {
-          "title": "Skinny controller fat model",
-          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
-        }
-      ],
-      "seed": {
-        "tupe": "",
-        "repo": ""
-      },
-      "type": "article",
-      "tags": [
-        "Design Patterns"
-      ],
-      "show": true,
-      "dataSet": "design-patterns/design-patterns"
+      "type": ""
     }
   ],
   "common/common-data": [
@@ -388,8 +329,7 @@
         "package manager"
       ],
       "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
+      "show": true
     },
     {
       "term": "Angular",
@@ -408,8 +348,7 @@
         "angular"
       ],
       "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
+      "show": true
     },
     {
       "term": "SystemJS",
@@ -432,8 +371,7 @@
         "CommonJS"
       ],
       "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
+      "show": true
     },
     {
       "term": "Traceur",
@@ -453,8 +391,47 @@
         "ES6"
       ],
       "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
+      "show": true
+    }
+  ],
+  "design-patterns/design-patterns": [
+    {
+      "term": "Law of Demeter",
+      "definition": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
+      "references": [
+        {
+          "title": "Law of Demeter",
+          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+        }
+      ],
+      "seed": {
+        "tupe": "",
+        "repo": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "type": "article",
+      "show": true
+    },
+    {
+      "term": "Skinny Controller, Fat Model",
+      "definition": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
+      "references": [
+        {
+          "title": "Skinny controller fat model",
+          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
+        }
+      ],
+      "seed": {
+        "tupe": "",
+        "repo": ""
+      },
+      "type": "article",
+      "tags": [
+        "Design Patterns"
+      ],
+      "show": true
     }
   ],
   "json/json-glossary": []
