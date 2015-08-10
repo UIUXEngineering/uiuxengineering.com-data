@@ -25,6 +25,8 @@
   "devDependencies": {
     "fs-extra": "^0.22.1",
     "gulp": "^3.9.0",
-    "gulp-jsoncombine": "^1.0.2"
+    "gulp-jsoncombine": "^1.0.2",
+    "jsonschema": "^1.0.2",
+    "node-schema-object": "^0.9.2"
   }
 }

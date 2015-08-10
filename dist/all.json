@@ -1,34 +1,135 @@
 {
-  "angular1/angular1-data": [
+  "schema": {
+    "baseSchema": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "title": "UIUXEngineering",
+      "description": "UIUX Engineering Data Schema",
+      "id": "UIUXDataObject",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Term to be defined."
+        },
+        "description": {
+          "type": "string",
+          "description": "Definition of term."
+        },
+        "references": {
+          "type": "array",
+          "description": "array of url titles and links.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "url"
+            ]
+          }
+        },
+        "seed": {
+          "type": "object",
+          "description": "Code repository providing starter environment.",
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "server": {
+              "type": "string",
+              "description": "github, bitbucket, tfs"
+            },
+            "repotype": {
+              "type": "string",
+              "description": "git, svn"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "label",
+            "server",
+            "repoType",
+            "url"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "description": "taxonomy words or phrases",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dataSet": {
+          "type": "string",
+          "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
+        },
+        "show": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "references",
+        "seed",
+        "tags",
+        "dataSet",
+        "show"
+      ]
+    }
+  },
+  "data": [
     {
-      "show": false,
+      "show": true,
       "title": "How to start writing apps with ES6, Angular 1.x and JSPM",
       "description": "",
       "references": [
         {
-          "title": "Angular 1.x with jspm",
+          "label": "Angular 1.x with jspm",
           "url": "http://martinmicunda.com/2015/02/09/how-to-start-writing-apps-with-es6-angular-1x-and-jspm/"
         }
       ],
       "seed": {
-        "type": "git",
-        "repo": "https://github.com/martinmicunda/employee-scheduling-ui"
-      }
+        "label": "Employee Scheduling UI",
+        "server": "https://github.com/",
+        "repoType": "git",
+        "url": "https://github.com/martinmicunda/employee-scheduling-ui"
+      },
+      "tags": [
+        "seed",
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data"
     },
     {
       "show": true,
-      "title": "jspm-angular-seed ",
+      "title": "jspm-angular-seed",
       "description": "Seed example using AngularJS 1.x with jspm and systemjs/es6-module-loader.",
       "references": [
         {
-          "title": "jspm angular seed",
+          "label": "jspm angular seed",
           "url": "https://www.npmjs.com/package/jspm-angular-seed"
         }
       ],
       "seed": {
-        "type": "git",
-        "repo": "https://github.com/origin1tech/jspm-angular-seed"
-      }
+        "label": "jspm angular seed",
+        "server": "https://github.com/",
+        "repoType": "git",
+        "url": "https://github.com/origin1tech/jspm-angular-seed"
+      },
+      "tags": [
+        "seed",
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data"
     },
     {
       "show": true,
@@ -36,14 +137,20 @@
       "description": "Angular 1.x reloaded: improve your app now! and get ready for 2.0",
       "references": [
         {
-          "title": "Angular 1.4 reloaded",
+          "label": "Angular 1.4 reloaded",
           "url": "http://www.slideshare.net/carlo.bonamico/nis-bonamicovoxxed-daysticino2015angular14reloadedand2002"
         }
       ],
       "seed": {
-        "type": "",
-        "repo": ""
-      }
+        "label": "",
+        "server": "https://github.com/",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data"
     },
     {
       "show": true,
@@ -51,14 +158,20 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 1.3 using es6",
+          "label": "Angular 1.3 using es6",
           "url": "http://blog.thoughtram.io/angularjs/es6/2015/01/23/exploring-angular-1.3-using-es6.html"
         }
       ],
       "seed": {
-        "type": "git",
-        "repo": "https://github.com/thoughtram/es6-babel-browserify-boilerplate"
-      }
+        "label": "es6 babel browserify boilerplate",
+        "server": "https://github.com/",
+        "repoType": "git",
+        "url": "https://github.com/thoughtram/es6-babel-browserify-boilerplate"
+      },
+      "tags": [
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data"
     },
     {
       "show": true,
@@ -66,76 +179,87 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 1.x with ES6",
+          "label": "Angular 1.x with ES6",
           "url": "https://www.timroes.de/2015/07/29/using-ecmascript-6-es6-with-angularjs-1-x/"
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/timroes/angular-es6-sample"
-      }
-    }
-  ],
-  "angular2/angular2-glossary": [
+        "label": "Angular ES6 Sample",
+        "server": "https://github.com/",
+        "repoType": "git",
+        "url": "https://github.com/timroes/angular-es6-sample"
+      },
+      "tags": [
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data"
+    },
     {
-      "term": "*",
-      "definition": "Use directive on current Attribute",
+      "title": "*",
+      "description": "Use directive on current Attribute",
       "snippet": "@View({\ndirectives: [NgFor],\n\ttemplate: `\n\t\t<ul>\n\t\t\t<li *ng-for=\"#name of names\">Hello {{ name }}</li>\n\t\t</ul>\n\t`\n})",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": ""
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "@View"
       ],
-      "show": true
+      "show": true,
+      "dataSet": "angular2/angular2-glossary"
     },
     {
-      "term": "#",
-      "definition": "Reference. When we say \"#name of names\" we’re saying loop over each element in names and assign each one to a variable called name.",
+      "title": "#",
+      "description": "Reference. When we say \"#name of names\" we’re saying loop over each element in names and assign each one to a variable called name.",
       "snippet": "@View({\ndirectives: [NgFor],\n\ttemplate: `\n\t\t<ul>\n\t\t\t<li *ng-for=\"#name of names\">Hello {{ name }}</li>\n\t\t</ul>\n\t`\n})",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": ""
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "@View"
       ],
       "type": "",
-      "show": true
-    }
-  ],
-  "angular2/angular2-seed-data": [
+      "show": true,
+      "dataSet": "angular2/angular2-glossary"
+    },
     {
       "show": true,
       "title": "Curated list of resources for learning how to Angular2",
       "description": "",
       "references": [
         {
-          "title": "Angular 2",
+          "label": "Angular 2",
           "url": "http://www.angular2.com/"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -143,18 +267,21 @@
       "title": "mgechev/angular2-seed",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": ""
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/mgechev/angular2-seed"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/mgechev/angular2-seed"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -162,18 +289,21 @@
       "title": "Creating a Super Simple Todo app Using Angular 2 —Tutorial",
       "references": [
         {
-          "title": "Todo app Angular 2 tutorial",
+          "label": "Todo app Angular 2 tutorial",
           "url": "http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial"
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/angular/quickstart"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/angular/quickstart"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -181,18 +311,21 @@
       "description": "A very simple sandbox to get your hands dirty with AngularJS 2.0 Alpha",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": ""
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/gionkunz/angular2-sandbox.git"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/gionkunz/angular2-sandbox.git"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -200,18 +333,21 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 2 - developing tabs",
+          "label": "Angular 2 - developing tabs",
           "url": "http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html"
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/thoughtram/angular-tabs"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/thoughtram/angular-tabs"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -219,18 +355,21 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 2 - dependency injection",
+          "label": "Angular 2 - dependency injection",
           "url": "http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -238,18 +377,21 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 2 - introduction",
+          "label": "Angular 2 - introduction",
           "url": "http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/"
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/angular-tips/GermanWords-frontend-angular-2"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/angular-tips/GermanWords-frontend-angular-2"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -257,18 +399,21 @@
       "description": "",
       "references": [
         {
-          "title": "Angular 2 - getting started",
+          "label": "Angular 2 - getting started",
           "url": "http://thejackalofjavascript.com/getting-started-with-angular-2-0/"
         }
       ],
       "seed": {
-        "tupe": "git",
-        "repo": "https://github.com/arvindr21/ng2"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/arvindr21/ng2"
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -276,18 +421,21 @@
       "description": "",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": "http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         ""
       ],
-      "type": ""
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
     },
     {
       "show": true,
@@ -295,33 +443,122 @@
       "description": "",
       "references": [
         {
-          "title": "",
+          "label": "",
           "url": "https://github.com/fcoury/angular2-reddit"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": "https://github.com/fcoury/angular2-reddit"
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/fcoury/angular2-reddit"
       },
       "tags": [
         ""
       ],
-      "type": ""
-    }
-  ],
-  "common/common-data": [
+      "type": "",
+      "dataSet": "angular2/angular2-seed-data"
+    },
     {
-      "term": "jspm",
-      "definition": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "title": "The Node Way",
+      "description": "",
       "references": [
         {
-          "title": "jspm.io",
+          "label": "The Node Way",
+          "url": "http://thenodeway.io/"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "design-patterns/design-patterns",
+      "show": true
+    },
+    {
+      "title": "The strange world of Node.js design patterns",
+      "description": "",
+      "references": [
+        {
+          "label": "The strange world of Node.js design patterns",
+          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
+        }
+      ],
+      "seed": {
+        "label": "FredKSchott/the-node-way",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/FredKSchott/the-node-way"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "design-patterns/design-patterns",
+      "show": true
+    },
+    {
+      "title": "Law of Demeter",
+      "description": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
+      "references": [
+        {
+          "label": "Law of Demeter",
+          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "type": "article",
+      "show": true,
+      "dataSet": "design-patterns/design-patterns"
+    },
+    {
+      "title": "Skinny Controller, Fat Model",
+      "description": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
+      "references": [
+        {
+          "label": "Skinny controller fat model",
+          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "type": "article",
+      "tags": [
+        "Design Patterns"
+      ],
+      "show": true,
+      "dataSet": "design-patterns/design-patterns"
+    },
+    {
+      "title": "jspm",
+      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "references": [
+        {
+          "label": "jspm.io",
           "url": "http://jspm.io/"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "ES6",
@@ -329,39 +566,45 @@
         "package manager"
       ],
       "type": "",
-      "show": true
+      "show": true,
+      "dataSet": "common/common-data"
     },
     {
-      "term": "Angular",
-      "definition": "Angular is a development platform for building mobile and desktop web applications",
+      "title": "Angular",
+      "description": "Angular is a development platform for building mobile and desktop web applications",
       "references": [
         {
-          "title": "angular.io",
+          "label": "angular.io",
           "url": "https://angular.io/"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "angular"
       ],
       "type": "",
-      "show": true
+      "show": true,
+      "dataSet": "common/common-data"
     },
     {
-      "term": "SystemJS",
-      "definition": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
       "references": [
         {
-          "title": "SystemJS",
+          "label": "SystemJS",
           "url": "https://github.com/systemjs/systemjs"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "ES6",
@@ -371,110 +614,31 @@
         "CommonJS"
       ],
       "type": "",
-      "show": true
+      "show": true,
+      "dataSet": "common/common-data"
     },
     {
-      "term": "Traceur",
-      "definition": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "title": "Traceur",
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
       "references": [
         {
-          "title": "Traceur Compiler",
+          "label": "Traceur Compiler",
           "url": "https://github.com/google/traceur-compiler"
         }
       ],
       "seed": {
-        "tupe": "",
-        "repo": ""
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
         "build",
         "ES6"
       ],
       "type": "",
-      "show": true
+      "show": true,
+      "dataSet": "common/common-data"
     }
-  ],
-  "design-patterns/design-patterns": [
-    {
-      "term": "The Node Way",
-      "definition": "",
-      "references": [
-        {
-          "title": "The Node Way",
-          "url": "http://thenodeway.io/"
-        }
-      ],
-      "seed": {
-        "title": "",
-        "server": "",
-        "tupe": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "",
-      "show": true
-    },
-    {
-      "term": "The strange world of Node.js design patterns",
-      "definition": "",
-      "references": [
-        {
-          "title": "The strange world of Node.js design patterns",
-          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
-        }
-      ],
-      "seed": {
-        "title": "FredKSchott/the-node-way",
-        "server": "github",
-        "tupe": "git",
-        "url": "https://github.com/FredKSchott/the-node-way"
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "",
-      "show": true
-    },
-    {
-      "term": "Law of Demeter",
-      "definition": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
-      "references": [
-        {
-          "title": "Law of Demeter",
-          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
-        }
-      ],
-      "seed": {
-        "tupe": "",
-        "repo": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "type": "article",
-      "show": true
-    },
-    {
-      "term": "Skinny Controller, Fat Model",
-      "definition": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
-      "references": [
-        {
-          "title": "Skinny controller fat model",
-          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
-        }
-      ],
-      "seed": {
-        "tupe": "",
-        "repo": ""
-      },
-      "type": "article",
-      "tags": [
-        "Design Patterns"
-      ],
-      "show": true
-    }
-  ],
-  "json/json-glossary": []
+  ]
 }
