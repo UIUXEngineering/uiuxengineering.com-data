@@ -5,6 +5,7 @@ var Validator = require('jsonschema').Validator;
 var SchemaObject = require('node-schema-object');
 var _ = require('lodash');
 var v = new Validator();
+var utils = require('./utils');
 
 //schemas
 var baseSchema = require('../schemas/base-schema');
@@ -49,7 +50,7 @@ function createFromSchema(allRawDataSets) {
 
     //Return Collection
     var collection = [];
-    var tags = [];
+    var tags = utils.getValuesArray(allRawDataSets, 'tags').data;
     var DataObject = new SchemaObject( baseSchema );
 
 
@@ -71,9 +72,6 @@ function createFromSchema(allRawDataSets) {
             //Validate Schemas
             if (isValidSchemaObject(allRawDataSets[dataSet][i], baseSchema)) {
 
-                //Capture Tags
-                tags = tags.concat(allRawDataSets[dataSet][i].tags);
-
                 //var newDataObject = new DataObject( JSON.stringify(allRawDataSets[dataSet][i], null, 2) );
                 collection.push( allRawDataSets[dataSet][i] );
 
@@ -81,11 +79,6 @@ function createFromSchema(allRawDataSets) {
         }
 
     }
-
-    tags = _.uniq(tags);
-    tags = _.sortBy(tags, function(num) {
-        return num;
-    });
 
     return {
         schema: {
