@@ -86,7 +86,24 @@
       ]
     }
   },
-  "data": [
+  "tags": [
+    "@View",
+    "AMD",
+    "CommonJS",
+    "Design Patterns",
+    "ES6",
+    "JSON",
+    "Java",
+    "angular",
+    "angular 1.x",
+    "angular 2.x",
+    "build",
+    "loader",
+    "loading",
+    "package manager",
+    "seed"
+  ],
+  "items": [
     {
       "show": true,
       "title": "How to start writing apps with ES6, Angular 1.x and JSPM",
@@ -211,10 +228,11 @@
         "url": ""
       },
       "tags": [
-        "@View"
+        "@View",
+        "angular 2.x"
       ],
       "show": true,
-      "dataSet": "angular2/angular2-glossary"
+      "dataSet": "angular2/angular2-glossary-data"
     },
     {
       "title": "#",
@@ -233,11 +251,12 @@
         "url": ""
       },
       "tags": [
-        "@View"
+        "@View",
+        "angular 2.x"
       ],
       "type": "",
       "show": true,
-      "dataSet": "angular2/angular2-glossary"
+      "dataSet": "angular2/angular2-glossary-data"
     },
     {
       "show": true,
@@ -256,7 +275,7 @@
         "url": ""
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -278,7 +297,7 @@
         "url": "https://github.com/mgechev/angular2-seed"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -300,7 +319,7 @@
         "url": "https://github.com/angular/quickstart"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -322,7 +341,7 @@
         "url": "https://github.com/gionkunz/angular2-sandbox.git"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -344,7 +363,7 @@
         "url": "https://github.com/thoughtram/angular-tabs"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -366,7 +385,7 @@
         "url": ""
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -388,7 +407,7 @@
         "url": "https://github.com/angular-tips/GermanWords-frontend-angular-2"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -410,7 +429,7 @@
         "url": "https://github.com/arvindr21/ng2"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -432,7 +451,7 @@
         "url": ""
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -454,96 +473,10 @@
         "url": "https://github.com/fcoury/angular2-reddit"
       },
       "tags": [
-        ""
+        "angular 2.x"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
-    },
-    {
-      "title": "The Node Way",
-      "description": "",
-      "references": [
-        {
-          "label": "The Node Way",
-          "url": "http://thenodeway.io/"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "design-patterns/design-patterns",
-      "show": true
-    },
-    {
-      "title": "The strange world of Node.js design patterns",
-      "description": "",
-      "references": [
-        {
-          "label": "The strange world of Node.js design patterns",
-          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
-        }
-      ],
-      "seed": {
-        "label": "FredKSchott/the-node-way",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/FredKSchott/the-node-way"
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "design-patterns/design-patterns",
-      "show": true
-    },
-    {
-      "title": "Law of Demeter",
-      "description": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
-      "references": [
-        {
-          "label": "Law of Demeter",
-          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "type": "article",
-      "show": true,
-      "dataSet": "design-patterns/design-patterns"
-    },
-    {
-      "title": "Skinny Controller, Fat Model",
-      "description": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
-      "references": [
-        {
-          "label": "Skinny controller fat model",
-          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "type": "article",
-      "tags": [
-        "Design Patterns"
-      ],
-      "show": true,
-      "dataSet": "design-patterns/design-patterns"
     },
     {
       "title": "jspm",
@@ -585,7 +518,8 @@
         "url": ""
       },
       "tags": [
-        "angular"
+        "angular",
+        "angular 2.x"
       ],
       "type": "",
       "show": true,
@@ -611,7 +545,8 @@
         "loading",
         "loader",
         "AMD",
-        "CommonJS"
+        "CommonJS",
+        "angular 2.x"
       ],
       "type": "",
       "show": true,
@@ -634,11 +569,182 @@
       },
       "tags": [
         "build",
-        "ES6"
+        "ES6",
+        "angular 2.x"
       ],
       "type": "",
       "show": true,
       "dataSet": "common/common-data"
+    },
+    {
+      "title": "The Node Way",
+      "description": "",
+      "references": [
+        {
+          "label": "The Node Way",
+          "url": "http://thenodeway.io/"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "The strange world of Node.js design patterns",
+      "description": "",
+      "references": [
+        {
+          "label": "The strange world of Node.js design patterns",
+          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
+        }
+      ],
+      "seed": {
+        "label": "FredKSchott/the-node-way",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/FredKSchott/the-node-way"
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "Law of Demeter",
+      "description": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
+      "references": [
+        {
+          "label": "Law of Demeter",
+          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "type": "article",
+      "show": true,
+      "dataSet": "design-patterns/design-patterns-data"
+    },
+    {
+      "title": "Skinny Controller, Fat Model",
+      "description": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
+      "references": [
+        {
+          "label": "Skinny controller fat model",
+          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "type": "article",
+      "tags": [
+        "Design Patterns"
+      ],
+      "show": true,
+      "dataSet": "design-patterns/design-patterns-data"
+    },
+    {
+      "title": "Generifying your Design Patterns",
+      "description": "Part I: The Visitor ",
+      "references": [
+        {
+          "label": "Part I: The Visitor ",
+          "url": "http://www.javaranch.com/journal/200601/visitor.html"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
+      "title": "JSON Hyper-Schema",
+      "description": "Hypertext definitions for JSON Schema",
+      "references": [
+        {
+          "label": "json-schema-hypermedia",
+          "url": "http://json-schema.org/latest/json-schema-hypermedia.html"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "JSON"
+      ],
+      "dataSet": "json-schema/json-glossary-data",
+      "show": true
+    },
+    {
+      "title": "Understanding JSON Schema",
+      "description": "JSON Schema is a powerful tool for validating the structure of JSON data. However, learning to use it by reading its specification is like learning to drive a car by looking at its blueprints. You don’t need to know how an internal combustion engine fits together if all you want to do is pick up the groceries. This book, therefore, aims to be the friendly driving instructor for JSON Schema. It’s for those that want to write it and understand it, but maybe aren’t interested in building their own car—er, writing their own JSON Schema validator—just yet.",
+      "references": [
+        {
+          "label": "Understanding JSON Schema",
+          "url": "http://spacetelescope.github.io/understanding-json-schema/"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "JSON"
+      ],
+      "dataSet": "json-schema/json-glossary-data",
+      "show": true
     }
   ]
 }

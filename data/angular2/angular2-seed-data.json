@@ -15,7 +15,7 @@
       "repoType": "",
       "url": ""
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -35,7 +35,7 @@
       "repoType":"git",
       "url":"https://github.com/mgechev/angular2-seed"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -55,7 +55,7 @@
       "repoType":"git",
       "url":"https://github.com/angular/quickstart"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -75,7 +75,7 @@
       "repoType":"git",
       "url":"https://github.com/gionkunz/angular2-sandbox.git"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -95,7 +95,7 @@
       "repoType":"git",
       "url":"https://github.com/thoughtram/angular-tabs"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -115,7 +115,7 @@
       "repoType":"",
       "url":""
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -135,7 +135,7 @@
       "repoType":"git",
       "url":"https://github.com/angular-tips/GermanWords-frontend-angular-2"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -155,7 +155,7 @@
       "repoType":"git",
       "url":"https://github.com/arvindr21/ng2"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -175,7 +175,7 @@
       "repoType": "",
       "url": ""
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   },
@@ -195,7 +195,7 @@
       "repoType": "git",
       "url": "https://github.com/fcoury/angular2-reddit"
     },
-    "tags":[""],
+    "tags":["angular 2.x"],
     "type":"",
     "show": true
   }

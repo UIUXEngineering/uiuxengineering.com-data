@@ -3,6 +3,7 @@
  */
 var Validator = require('jsonschema').Validator;
 var SchemaObject = require('node-schema-object');
+var _ = require('lodash');
 var v = new Validator();
 
 //schemas
@@ -48,14 +49,14 @@ function createFromSchema(allRawDataSets) {
 
     //Return Collection
     var collection = [];
+    var tags = [];
     var DataObject = new SchemaObject( baseSchema );
-
-
-
 
 
     //Iterate All Data sets from gulp.src('data/**/*.json')
     for (var dataSet in allRawDataSets) {
+
+        console.log("Copying " + allRawDataSets[dataSet].length + " records from " + dataSet);
 
         //Iterate each data object in dataSet
         var i = 0, iLen = allRawDataSets[dataSet].length;
@@ -70,6 +71,9 @@ function createFromSchema(allRawDataSets) {
             //Validate Schemas
             if (isValidSchemaObject(allRawDataSets[dataSet][i], baseSchema)) {
 
+                //Capture Tags
+                tags = tags.concat(allRawDataSets[dataSet][i].tags);
+
                 //var newDataObject = new DataObject( JSON.stringify(allRawDataSets[dataSet][i], null, 2) );
                 collection.push( allRawDataSets[dataSet][i] );
 
@@ -78,12 +82,17 @@ function createFromSchema(allRawDataSets) {
 
     }
 
+    tags = _.uniq(tags);
+    tags = _.sortBy(tags, function(num) {
+        return num;
+    });
 
     return {
         schema: {
           baseSchema: baseSchema
         },
-        data: collection
+        tags: tags,
+        items: collection
     };
 
 }

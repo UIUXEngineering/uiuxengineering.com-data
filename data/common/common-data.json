@@ -33,7 +33,7 @@
       "repoType": "",
       "url": ""
     },
-    "tags":["angular"],
+    "tags":["angular", "angular 2.x"],
     "type":"",
     "show": true
   },{
@@ -51,7 +51,7 @@
     "repoType": "",
     "url": ""
   },
-  "tags":["ES6", "loading", "loader", "AMD", "CommonJS"],
+  "tags":["ES6", "loading", "loader", "AMD", "CommonJS", "angular 2.x"],
   "type":"",
   "show": true
 },
@@ -70,7 +70,7 @@
       "repoType": "",
       "url": ""
     },
-    "tags":["build", "ES6"],
+    "tags":["build", "ES6", "angular 2.x"],
     "type":"",
     "show": true
   }

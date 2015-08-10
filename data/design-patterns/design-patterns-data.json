@@ -15,7 +15,7 @@
       "url": ""
     },
   "tags": [
-    ""
+    "Design Patterns"
   ],
   "dataSet": "",
   "show": true
@@ -35,7 +35,7 @@
     "url": "https://github.com/FredKSchott/the-node-way"
   },
   "tags": [
-    ""
+    "Design Patterns"
   ],
   "dataSet": "",
   "show": true
@@ -76,6 +76,27 @@
     },
     "type": "article",
     "tags":["Design Patterns"],
+    "show": true
+  },
+  {
+    "title": "Generifying your Design Patterns",
+    "description": "Part I: The Visitor ",
+    "references": [
+      {
+        "label": "Part I: The Visitor ",
+        "url": "http://www.javaranch.com/journal/200601/visitor.html"
+      }
+    ],
+    "seed": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "Design Patterns"
+    ],
+    "dataSet": "",
     "show": true
   }
 ]

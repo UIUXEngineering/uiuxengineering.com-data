@@ -1,0 +1,23 @@
+[
+  {
+    "title": "JavaRanch",
+    "description": "a friendly place for Java greenhorns!",
+    "references": [
+      {
+        "label": "javaranch.com",
+        "url": "http://www.javaranch.com/index.jsp"
+      }
+    ],
+    "seed": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "Java"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]
