@@ -1,37 +1,37 @@
 [
   {
-  "term": "The Node Way",
-  "definition": "",
+  "title": "The Node Way",
+  "description": "",
   "references": [
     {
-      "title": "The Node Way",
+      "label": "The Node Way",
       "url": "http://thenodeway.io/"
     }
   ],
-  "seed": {
-    "title": "",
-    "server": "",
-    "tupe": "",
-    "url": ""
-  },
+    "seed":{
+      "label":"",
+      "server":"",
+      "repoType": "",
+      "url": ""
+    },
   "tags": [
     ""
   ],
   "dataSet": "",
   "show": true
 },{
-  "term": "The strange world of Node.js design patterns",
-  "definition": "",
+  "title": "The strange world of Node.js design patterns",
+  "description": "",
   "references": [
     {
-      "title": "The strange world of Node.js design patterns",
+      "label": "The strange world of Node.js design patterns",
       "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
     }
   ],
   "seed": {
-    "title": "FredKSchott/the-node-way",
-    "server":"github",
-    "tupe": "git",
+    "label": "FredKSchott/the-node-way",
+    "server":"https://github.com",
+    "repoType": "git",
     "url": "https://github.com/FredKSchott/the-node-way"
   },
   "tags": [
@@ -41,34 +41,38 @@
   "show": true
 },
 {
-    "term":"Law of Demeter",
-    "definition":"The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
+    "title":"Law of Demeter",
+    "description":"The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
     "references":[
       {
-        "title": "Law of Demeter",
+        "label": "Law of Demeter",
         "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
       }
     ],
-    "seed":{
-      "tupe":"",
-      "repo":""
-    },
+  "seed":{
+    "label":"",
+    "server":"",
+    "repoType": "",
+    "url": ""
+  },
     "tags":["Design Patterns"],
     "type":"article",
     "show": true
   },
   {
-    "term":"Skinny Controller, Fat Model",
-    "definition":"The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
+    "title":"Skinny Controller, Fat Model",
+    "description":"The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
     "references":[
       {
-        "title": "Skinny controller fat model",
+        "label": "Skinny controller fat model",
         "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
       }
     ],
     "seed":{
-      "tupe":"",
-      "repo":""
+      "label":"",
+      "server":"",
+      "repoType": "",
+      "url": ""
     },
     "type": "article",
     "tags":["Design Patterns"],
