@@ -87,6 +87,7 @@
     }
   },
   "tags": [
+    "",
     "@View",
     "AMD",
     "Code",
@@ -189,7 +190,8 @@
         "url": "https://github.com/thoughtram/es6-babel-browserify-boilerplate"
       },
       "tags": [
-        "angular 1.x"
+        "angular 1.x",
+        "seed"
       ],
       "dataSet": "angular1/angular1-data"
     },
@@ -300,7 +302,8 @@
         "url": ""
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -322,7 +325,8 @@
         "url": "https://github.com/mgechev/angular2-seed"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -344,7 +348,8 @@
         "url": "https://github.com/angular/quickstart"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -366,7 +371,8 @@
         "url": "https://github.com/gionkunz/angular2-sandbox.git"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -388,7 +394,8 @@
         "url": "https://github.com/thoughtram/angular-tabs"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -410,7 +417,8 @@
         "url": ""
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -432,7 +440,8 @@
         "url": "https://github.com/angular-tips/GermanWords-frontend-angular-2"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -454,7 +463,8 @@
         "url": "https://github.com/arvindr21/ng2"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -476,7 +486,8 @@
         "url": ""
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -498,33 +509,11 @@
         "url": "https://github.com/fcoury/angular2-reddit"
       },
       "tags": [
-        "angular 2.x"
+        "angular 2.x",
+        "seed"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
-    },
-    {
-      "title": "So You Want to Learn How to Code",
-      "description": "",
-      "references": [
-        {
-          "label": "So You Want to Learn How to Code",
-          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "LinkedIn",
-        "Code",
-        "Learn"
-      ],
-      "dataSet": "articles/articles-data",
-      "show": true
     },
     {
       "title": "jspm",
@@ -600,6 +589,50 @@
       "type": "",
       "show": true,
       "dataSet": "common/common-data"
+    },
+    {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
     },
     {
       "title": "The Node Way",
@@ -709,27 +742,6 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
       "title": "JSON Hyper-Schema",
       "description": "Hypertext definitions for JSON Schema",
       "references": [
@@ -772,12 +784,33 @@
       "show": true
     },
     {
-      "title": "",
-      "description": "",
+      "title": "TSUN - TypeScript Upgraded Node",
+      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
       "references": [
         {
-          "label": "",
-          "url": ""
+          "label": "ng-book 2",
+          "url": "https://www.ng-book.com/2/"
+        }
+      ],
+      "repo": {
+        "label": "TypeScript REPL",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
+      },
+      "tags": [
+        "node"
+      ],
+      "dataSet": "node-modules/node-modules-data",
+      "show": true
+    },
+    {
+      "title": "TypeScrpt",
+      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
+      "references": [
+        {
+          "label": "www.typescriptlang.org",
+          "url": "http://www.typescriptlang.org/"
         }
       ],
       "repo": {
@@ -787,9 +820,9 @@
         "url": ""
       },
       "tags": [
-        "node"
+        ""
       ],
-      "dataSet": "node-modules/node-modules-data",
+      "dataSet": "typescript/typescript-data",
       "show": true
     }
   ]
