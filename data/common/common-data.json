@@ -17,25 +17,6 @@
     "tags":["ES6", "loading", "package manager"],
     "type":"",
     "show": true
-  },
-  {
-    "title":"Angular",
-    "description":"Angular is a development platform for building mobile and desktop web applications",
-    "references":[
-      {
-        "label": "angular.io",
-        "url":"https://angular.io/"
-      }
-    ],
-    "seed":{
-      "label":"",
-      "server":"",
-      "repoType": "",
-      "url": ""
-    },
-    "tags":["angular", "angular 2.x"],
-    "type":"",
-    "show": true
   },{
   "title":"SystemJS",
   "description":"Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",

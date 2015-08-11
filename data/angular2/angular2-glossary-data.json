@@ -1,5 +1,26 @@
 [
   {
+    "title": "Angular",
+    "description": "Angular is a development platform for building mobile and desktop web applications",
+    "references": [
+      {
+        "label": "angular.io",
+        "url": "https://angular.io/"
+      }
+    ],
+    "seed": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "angular 2.x"
+    ],
+    "type": "",
+    "show": true
+  },
+  {
     "title": "*",
     "description": "Use directive on current Attribute",
     "snippet": "@View({\ndirectives: [NgFor],\n\ttemplate: `\n\t\t<ul>\n\t\t\t<li *ng-for=\"#name of names\">Hello {{ name }}</li>\n\t\t</ul>\n\t`\n})",
@@ -9,14 +30,15 @@
         "url": ""
       }
     ],
-    "seed":{
-      "label":"",
-      "server":"",
+    "seed": {
+      "label": "",
+      "server": "",
       "repoType": "",
       "url": ""
     },
     "tags": [
-      "@View",  "angular 2.x"
+      "@View",
+      "angular 2.x"
     ],
     "show": true
   },
@@ -30,14 +52,15 @@
         "url": ""
       }
     ],
-    "seed":{
-      "label":"",
-      "server":"",
+    "seed": {
+      "label": "",
+      "server": "",
       "repoType": "",
       "url": ""
     },
     "tags": [
-      "@View",  "angular 2.x"
+      "@View",
+      "angular 2.x"
     ],
     "type": "",
     "show": true

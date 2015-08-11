@@ -89,12 +89,14 @@
   "tags": [
     "@View",
     "AMD",
+    "Code",
     "CommonJS",
     "Design Patterns",
     "ES6",
     "JSON",
     "Java",
-    "angular",
+    "Learn",
+    "LinkedIn",
     "angular 1.x",
     "angular 2.x",
     "build",
@@ -212,30 +214,6 @@
       "dataSet": "angular1/angular1-data"
     },
     {
-      "title": "jspm",
-      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
-      "references": [
-        {
-          "label": "jspm.io",
-          "url": "http://jspm.io/"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "package manager"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
       "title": "Angular",
       "description": "Angular is a development platform for building mobile and desktop web applications",
       "references": [
@@ -251,63 +229,11 @@
         "url": ""
       },
       "tags": [
-        "angular",
         "angular 2.x"
       ],
       "type": "",
       "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "SystemJS",
-      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-      "references": [
-        {
-          "label": "SystemJS",
-          "url": "https://github.com/systemjs/systemjs"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "loader",
-        "AMD",
-        "CommonJS",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "Traceur",
-      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-      "references": [
-        {
-          "label": "Traceur Compiler",
-          "url": "https://github.com/google/traceur-compiler"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "build",
-        "ES6",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
+      "dataSet": "angular2/angular2-glossary-data"
     },
     {
       "title": "*",
@@ -577,6 +503,125 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
+      "title": "jspm",
+      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "references": [
+        {
+          "label": "jspm.io",
+          "url": "http://jspm.io/"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "package manager"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "references": [
+        {
+          "label": "SystemJS",
+          "url": "https://github.com/systemjs/systemjs"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "loader",
+        "AMD",
+        "CommonJS",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "Traceur",
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "references": [
+        {
+          "label": "Traceur Compiler",
+          "url": "https://github.com/google/traceur-compiler"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "build",
+        "ES6",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "seed": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
       "title": "The Node Way",
       "description": "",
       "references": [
@@ -723,27 +768,6 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
-      "show": true
-    },
-    {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
       "show": true
     }
   ]
