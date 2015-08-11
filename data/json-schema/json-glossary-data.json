@@ -8,7 +8,7 @@
         "url": "http://json-schema.org/latest/json-schema-hypermedia.html"
       }
     ],
-    "seed": {
+    "repo": {
       "label": "",
       "server": "",
       "repoType": "",
@@ -29,7 +29,7 @@
         "url": "http://spacetelescope.github.io/understanding-json-schema/"
       }
     ],
-    "seed": {
+    "repo": {
       "label": "",
       "server": "",
       "repoType": "",

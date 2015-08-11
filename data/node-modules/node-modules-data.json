@@ -1,0 +1,23 @@
+[
+  {
+    "title": "TSUN - TypeScript Upgraded Node",
+    "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
+    "references": [
+      {
+        "label": "ng-book 2",
+        "url": "https://www.ng-book.com/2/"
+      }
+    ],
+    "repo": {
+      "label": "TypeScript REPL",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/HerringtonDarkholme/typescript-repl"
+    },
+    "tags": [
+      "node"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

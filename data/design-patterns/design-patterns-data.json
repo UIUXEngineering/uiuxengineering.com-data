@@ -8,7 +8,7 @@
       "url": "http://thenodeway.io/"
     }
   ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"",
       "repoType": "",
@@ -28,7 +28,7 @@
       "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
     }
   ],
-  "seed": {
+  "repo": {
     "label": "FredKSchott/the-node-way",
     "server":"https://github.com",
     "repoType": "git",
@@ -49,7 +49,7 @@
         "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
       }
     ],
-  "seed":{
+  "repo": {
     "label":"",
     "server":"",
     "repoType": "",
@@ -68,7 +68,7 @@
         "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"",
       "repoType": "",
@@ -87,7 +87,7 @@
         "url": "http://www.javaranch.com/journal/200601/visitor.html"
       }
     ],
-    "seed": {
+    "repo": {
       "label": "",
       "server": "",
       "repoType": "",

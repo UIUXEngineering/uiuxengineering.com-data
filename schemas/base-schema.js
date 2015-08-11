@@ -31,7 +31,7 @@ module.exports = {
 
 
         },
-        "seed": {
+        "repo": {
             "type": "object",
             "description": "Code repository providing starter environment.",
             "properties": {
@@ -59,5 +59,5 @@ module.exports = {
         },
         "show": {"type": "boolean"}
     },
-    "required": [ "title", "description", "references", "seed", "tags", "dataSet", "show" ]
+    "required": [ "title", "description", "references", "repo", "tags", "dataSet", "show" ]
 };

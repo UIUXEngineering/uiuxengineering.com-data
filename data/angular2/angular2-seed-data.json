@@ -9,13 +9,13 @@
         "url":"http://www.angular2.com/"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"",
       "repoType": "",
       "url": ""
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -29,13 +29,13 @@
         "url": ""
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/mgechev/angular2-seed"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -49,13 +49,13 @@
         "url":"http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/angular/quickstart"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -69,13 +69,13 @@
         "url": ""
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/gionkunz/angular2-sandbox.git"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -89,13 +89,13 @@
         "url":"http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/thoughtram/angular-tabs"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -109,13 +109,13 @@
         "url":"http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"",
       "repoType":"",
       "url":""
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -129,13 +129,13 @@
         "url":"http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/angular-tips/GermanWords-frontend-angular-2"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -149,13 +149,13 @@
         "url":"http://thejackalofjavascript.com/getting-started-with-angular-2-0/"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType":"git",
       "url":"https://github.com/arvindr21/ng2"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -169,13 +169,13 @@
         "url":"http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"",
       "repoType": "",
       "url": ""
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   },
@@ -189,13 +189,13 @@
         "url": "https://github.com/fcoury/angular2-reddit"
       }
     ],
-    "seed":{
+    "repo": {
       "label":"",
       "server":"https://github.com",
       "repoType": "git",
       "url": "https://github.com/fcoury/angular2-reddit"
     },
-    "tags":["angular 2.x"],
+    "tags":["angular 2.x", "seed"],
     "type":"",
     "show": true
   }

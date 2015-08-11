@@ -34,7 +34,7 @@
             ]
           }
         },
-        "seed": {
+        "repo": {
           "type": "object",
           "description": "Code repository providing starter environment.",
           "properties": {
@@ -79,7 +79,7 @@
         "title",
         "description",
         "references",
-        "seed",
+        "repo",
         "tags",
         "dataSet",
         "show"
@@ -102,6 +102,7 @@
     "build",
     "loader",
     "loading",
+    "node",
     "package manager",
     "seed"
   ],
@@ -116,7 +117,7 @@
           "url": "http://martinmicunda.com/2015/02/09/how-to-start-writing-apps-with-es6-angular-1x-and-jspm/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "Employee Scheduling UI",
         "server": "https://github.com/",
         "repoType": "git",
@@ -138,7 +139,7 @@
           "url": "https://www.npmjs.com/package/jspm-angular-seed"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "jspm angular seed",
         "server": "https://github.com/",
         "repoType": "git",
@@ -160,7 +161,7 @@
           "url": "http://www.slideshare.net/carlo.bonamico/nis-bonamicovoxxed-daysticino2015angular14reloadedand2002"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com/",
         "repoType": "git",
@@ -181,7 +182,7 @@
           "url": "http://blog.thoughtram.io/angularjs/es6/2015/01/23/exploring-angular-1.3-using-es6.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "es6 babel browserify boilerplate",
         "server": "https://github.com/",
         "repoType": "git",
@@ -202,7 +203,7 @@
           "url": "https://www.timroes.de/2015/07/29/using-ecmascript-6-es6-with-angularjs-1-x/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "Angular ES6 Sample",
         "server": "https://github.com/",
         "repoType": "git",
@@ -222,7 +223,7 @@
           "url": "https://angular.io/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -245,7 +246,7 @@
           "url": ""
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -268,7 +269,7 @@
           "url": ""
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -292,7 +293,7 @@
           "url": "http://www.angular2.com/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -314,7 +315,7 @@
           "url": ""
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -336,7 +337,7 @@
           "url": "http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -358,7 +359,7 @@
           "url": ""
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -380,7 +381,7 @@
           "url": "http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -402,7 +403,7 @@
           "url": "http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -424,7 +425,7 @@
           "url": "http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -446,7 +447,7 @@
           "url": "http://thejackalofjavascript.com/getting-started-with-angular-2-0/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -468,7 +469,7 @@
           "url": "http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -490,7 +491,7 @@
           "url": "https://github.com/fcoury/angular2-reddit"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
@@ -511,7 +512,7 @@
           "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -534,7 +535,7 @@
           "url": "http://jspm.io/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -558,7 +559,7 @@
           "url": "https://github.com/systemjs/systemjs"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -585,7 +586,7 @@
           "url": "https://github.com/google/traceur-compiler"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -601,27 +602,6 @@
       "dataSet": "common/common-data"
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "seed": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
       "title": "The Node Way",
       "description": "",
       "references": [
@@ -630,7 +610,7 @@
           "url": "http://thenodeway.io/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -651,7 +631,7 @@
           "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "FredKSchott/the-node-way",
         "server": "https://github.com",
         "repoType": "git",
@@ -672,7 +652,7 @@
           "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -694,7 +674,7 @@
           "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -716,7 +696,7 @@
           "url": "http://www.javaranch.com/journal/200601/visitor.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -729,6 +709,27 @@
       "show": true
     },
     {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
       "title": "JSON Hyper-Schema",
       "description": "Hypertext definitions for JSON Schema",
       "references": [
@@ -737,7 +738,7 @@
           "url": "http://json-schema.org/latest/json-schema-hypermedia.html"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -758,7 +759,7 @@
           "url": "http://spacetelescope.github.io/understanding-json-schema/"
         }
       ],
-      "seed": {
+      "repo": {
         "label": "",
         "server": "",
         "repoType": "",
@@ -768,6 +769,27 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
+      "show": true
+    },
+    {
+      "title": "",
+      "description": "",
+      "references": [
+        {
+          "label": "",
+          "url": ""
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "node"
+      ],
+      "dataSet": "node-modules/node-modules-data",
       "show": true
     }
   ]
