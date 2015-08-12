@@ -3,7 +3,18 @@
  */
 var _ = require('lodash');
 
-function getValuesArray(allRawDataSets, prop) {
+function flattenUniqSort(values) {
+    values = _.flatten(values);
+    values = _.uniq(values);
+    values = _.sortBy(values, function(num) {
+        return num;
+    });
+
+    return values;
+}
+
+
+module.exports.getValuesArray = function getValuesArray(allRawDataSets, prop) {
     //Return Collection
     var values = [];
 
@@ -22,15 +33,25 @@ function getValuesArray(allRawDataSets, prop) {
 
     }
 
-    values = _.flatten(values);
-    values = _.uniq(values);
-    values = _.sortBy(values, function(num) {
-        return num;
-    });
+
 
     return {
-        data: values
+        data: flattenUniqSort(values)
     };
-}
-module.exports.getValuesArray = getValuesArray;
+};
 
+
+module.exports.dataSetList = function dataSetList(dataSetObject) {
+    var values = [];
+
+    //Iterate All Data sets from gulp.src('data/**/*.json')
+    for (var dataSet in dataSetObject) {
+
+        values.push(dataSet);
+
+    }
+
+    return {
+        data: flattenUniqSort(values)
+    };
+};

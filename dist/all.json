@@ -107,6 +107,19 @@
     "package manager",
     "seed"
   ],
+  "dataSetList": [
+    "angular1/angular1-data",
+    "angular2/angular2-glossary-data",
+    "angular2/angular2-seed-data",
+    "articles/articles-data",
+    "common/common-data",
+    "design-patterns/design-patterns-data",
+    "java/java-data",
+    "json-schema/json-glossary-data",
+    "node-modules/node-modules-data",
+    "scala/scala-data",
+    "typescript/typescript-data"
+  ],
   "items": [
     {
       "show": true,
@@ -614,27 +627,6 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
       "title": "The Node Way",
       "description": "",
       "references": [
@@ -739,6 +731,27 @@
         "Design Patterns"
       ],
       "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
       "show": true
     },
     {
