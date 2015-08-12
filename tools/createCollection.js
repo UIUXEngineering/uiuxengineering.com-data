@@ -51,6 +51,7 @@ function createFromSchema(allRawDataSets) {
     //Return Collection
     var collection = [];
     var tags = utils.getValuesArray(allRawDataSets, 'tags').data;
+    var dataSetList = utils.dataSetList(allRawDataSets).data;
     var DataObject = new SchemaObject( baseSchema );
 
 
@@ -85,6 +86,7 @@ function createFromSchema(allRawDataSets) {
           baseSchema: baseSchema
         },
         tags: tags,
+        dataSetList: dataSetList,
         items: collection
     };
 
