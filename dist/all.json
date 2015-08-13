@@ -100,7 +100,9 @@
     "LinkedIn",
     "angular 1.x",
     "angular 2.x",
+    "best practices",
     "build",
+    "javascript",
     "loader",
     "loading",
     "node",
@@ -115,6 +117,7 @@
     "common/common-data",
     "design-patterns/design-patterns-data",
     "java/java-data",
+    "javascript/javascript-data",
     "json-schema/json-glossary-data",
     "node-modules/node-modules-data",
     "scala/scala-data",
@@ -627,6 +630,27 @@
       "show": true
     },
     {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
       "title": "The Node Way",
       "description": "",
       "references": [
@@ -734,12 +758,12 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
+      "title": "Inheritance and the prototype chain",
+      "description": "",
       "references": [
         {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
+          "label": "Inheritance and the prototype chain",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
         }
       ],
       "repo": {
@@ -749,9 +773,53 @@
         "url": ""
       },
       "tags": [
-        "Java"
+        ""
       ],
-      "dataSet": "java/java-data",
+      "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "JavaScript Guide",
+      "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language. If you want to get started with JavaScript or programming in general, consult the articles in the learning area. If you need exhaustive information about a language feature, have a look at the JavaScript reference.",
+      "references": [
+        {
+          "label": "JavaScript Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "best practices"
+      ],
+      "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "Introduction to Object-Oriented JavaScript",
+      "description": "Object-oriented to the core, JavaScript features powerful, flexible OOP capabilities. This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.",
+      "references": [
+        {
+          "label": "Introduction to Object-Oriented JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "best practices"
+      ],
+      "dataSet": "javascript/javascript-data",
       "show": true
     },
     {
