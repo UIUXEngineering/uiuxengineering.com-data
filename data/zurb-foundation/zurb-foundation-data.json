@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Best Practices for using Foundation with AngularJS",
+    "description": "From what I can tell, it looks like Foundation for Apps (FA) was created because folks had issues making AngularJS and Foundation 5 play nicely together. <a href=\"http://zurb.com/article/1312/the-next-foundation\" target=\"_blank\" >The Next Foundation</a> explains why FA was created. Reddit's web_design zone has quite a few <a href=\"http://www.reddit.com/r/web_design/comments/26btc4/zurb_the_next_foundation_foundation_built_with/\" target=\"_blank\" >comments related to this article</a>.",
+    "references": [
+      {
+        "label": "Best Practices for using Foundation with AngularJS",
+        "url": "https://raibledesigns.com/rd/entry/best_practices_for_using_foundation"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "zurb foundation", "angular 2.x", "angular 1.x", "css"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "The Next Foundation",
+    "description": "It's been almost three years that we've been working on Foundation with you guys, and we've come a long ways. Foundation has been used by over a million designers and developers on at least 330,000 public sites, gone through five major iterations (and many, many smaller ones), and has contributions from almost 500 people. For responsive sites, we're pretty pleased with what Foundation has been able to help people do.",
+    "references": [
+      {
+        "label": "The Next Foundation",
+        "url": "http://zurb.com/article/1312/the-next-foundation"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "zurb foundation", "angular 2.x", "angular 1.x", "css"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "Foundation for Apps",
+    "description": "The first front-end framework created for developing fully responsive web apps.",
+    "references": [
+      {
+        "label": "Foundation for Apps",
+        "url": "http://foundation.zurb.com/apps/"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "zurb foundation", "angular 2.x", "angular 1.x", "css"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "Angular Foundation",
+    "description": "This repository contains a set of native AngularJS directives based on Foundation's markup and CSS. As a result no dependency on jQuery or Foundation's JavaScript is required.",
+    "references": [
+      {
+        "label": "Foundation for Apps",
+        "url": "http://pineconellc.github.io/angular-foundation/"
+      }
+    ],
+    "repo": {
+      "label":"",
+      "server":"https://github.com",
+      "repoType":"git",
+      "url": "https://github.com/pineconellc/angular-foundation"
+    },
+    "tags": [
+      "zurb foundation", "angular 2.x", "angular 1.x", "css"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "Does angularjs integrate better with twitter bootstrap or zurb foundation?",
+    "description": "There's a repo of native Angular JS directives for Foundation that seems to work pretty well. It doesn't rely on jQuery or any of Foundation's original JS, so a couple of Foundation's JS plugins appear to be missing. However they also added in a couple more components like Typeahead.",
+    "references": [
+      {
+        "label": "Foundation for Apps",
+        "url": "http://www.quora.com/Does-angularjs-integrate-better-with-twitter-bootstrap-or-zurb-foundation"
+      }
+    ],
+    "repo": {
+      "label":"",
+      "server":"https://github.com",
+      "repoType":"git",
+      "url": "https://github.com/pineconellc/angular-foundation"
+    },
+    "tags": [
+      "zurb foundation", "angular 2.x", "angular 1.x", "css"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

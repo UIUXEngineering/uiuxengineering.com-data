@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Async Dynamic Alias Task",
+    "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+    "references": [
+      {
+        "label": "Async Dynamic Alias Task",
+        "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "grunt", "async", "task runner"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]
