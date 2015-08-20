@@ -100,14 +100,21 @@
     "LinkedIn",
     "angular 1.x",
     "angular 2.x",
+    "async",
     "best practices",
     "build",
+    "css",
+    "grunt",
     "javascript",
     "loader",
     "loading",
     "node",
     "package manager",
-    "seed"
+    "seed",
+    "service",
+    "snippet",
+    "task runner",
+    "zurb foundation"
   ],
   "dataSetList": [
     "angular1/angular1-data",
@@ -116,14 +123,39 @@
     "articles/articles-data",
     "common/common-data",
     "design-patterns/design-patterns-data",
+    "frameworks/frameworks-data",
+    "grunt/grunt-2-data",
     "java/java-data",
+    "javascript-snippets/javascript-snippets-data",
     "javascript/javascript-data",
     "json-schema/json-glossary-data",
     "node-modules/node-modules-data",
     "scala/scala-data",
-    "typescript/typescript-data"
+    "typescript/typescript-data",
+    "zurb-foundation/zurb-foundation-data"
   ],
   "items": [
+    {
+      "title": "$watch vs $observe",
+      "description": "There's a great answer on Stack Overflow addressing the differences between these methods. Below are the key points.",
+      "references": [
+        {
+          "label": "$watch-vs-$observe",
+          "url": "http://ng.malsup.com/#!/$watch-vs-$observe"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "angular 1.x"
+      ],
+      "dataSet": "angular1/angular1-data",
+      "show": true
+    },
     {
       "show": true,
       "title": "How to start writing apps with ES6, Angular 1.x and JSPM",
@@ -233,6 +265,29 @@
       "dataSet": "angular1/angular1-data"
     },
     {
+      "show": true,
+      "title": "Curated list of resources for learning how to Angular2",
+      "description": "",
+      "references": [
+        {
+          "label": "Angular 2",
+          "url": "http://www.angular2.com/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "angular 2.x",
+        "seed"
+      ],
+      "type": "",
+      "dataSet": "angular2/angular2-glossary-data"
+    },
+    {
       "title": "Angular",
       "description": "Angular is a development platform for building mobile and desktop web applications",
       "references": [
@@ -303,29 +358,6 @@
     },
     {
       "show": true,
-      "title": "Curated list of resources for learning how to Angular2",
-      "description": "",
-      "references": [
-        {
-          "label": "Angular 2",
-          "url": "http://www.angular2.com/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "angular 2.x",
-        "seed"
-      ],
-      "type": "",
-      "dataSet": "angular2/angular2-seed-data"
-    },
-    {
-      "show": true,
       "description": "",
       "title": "mgechev/angular2-seed",
       "references": [
@@ -349,7 +381,7 @@
     },
     {
       "show": true,
-      "description": "",
+      "description": "Includes service.",
       "title": "Creating a Super Simple Todo app Using Angular 2 —Tutorial",
       "references": [
         {
@@ -365,7 +397,8 @@
       },
       "tags": [
         "angular 2.x",
-        "seed"
+        "seed",
+        "service"
       ],
       "type": "",
       "dataSet": "angular2/angular2-seed-data"
@@ -532,6 +565,29 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
       "title": "jspm",
       "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
       "references": [
@@ -607,12 +663,12 @@
       "dataSet": "common/common-data"
     },
     {
-      "title": "So You Want to Learn How to Code",
+      "title": "",
       "description": "",
       "references": [
         {
-          "label": "So You Want to Learn How to Code",
-          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+          "label": "",
+          "url": ""
         }
       ],
       "repo": {
@@ -622,20 +678,18 @@
         "url": ""
       },
       "tags": [
-        "LinkedIn",
-        "Code",
-        "Learn"
+        ""
       ],
-      "dataSet": "articles/articles-data",
+      "dataSet": "design-patterns/design-patterns-data",
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
+      "title": "101 Design Patterns & Tips for Developers",
+      "description": "",
       "references": [
         {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
+          "label": "101 Design Patterns & Tips for Developers",
+          "url": "https://sourcemaking.com/design-patterns-and-tips"
         }
       ],
       "repo": {
@@ -645,9 +699,9 @@
         "url": ""
       },
       "tags": [
-        "Java"
+        "Design Patterns"
       ],
-      "dataSet": "java/java-data",
+      "dataSet": "design-patterns/design-patterns-data",
       "show": true
     },
     {
@@ -755,6 +809,118 @@
         "Design Patterns"
       ],
       "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "Foundation 5 and AngularJS integration",
+      "description": "",
+      "references": [
+        {
+          "label": "Foundation 5 and AngularJS integration",
+          "url": "http://foundation.zurb.com/forum/posts/19902-foundation-5-and-angularjs-integration"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Dgeni - Documentation Generator",
+      "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
+      "references": [
+        {
+          "label": "Documentation Generator",
+          "url": "https://github.com/angular/dgeni"
+        },
+        {
+          "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
+          "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
+        }
+      ],
+      "repo": {
+        "label": "Documentation Generator",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/angular/dgeni"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Async Dynamic Alias Task",
+      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "references": [
+        {
+          "label": "Async Dynamic Alias Task",
+          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "grunt",
+        "async",
+        "task runner"
+      ],
+      "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "references": [
+        {
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "snippet"
+      ],
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -904,6 +1070,126 @@
         ""
       ],
       "dataSet": "typescript/typescript-data",
+      "show": true
+    },
+    {
+      "title": "Best Practices for using Foundation with AngularJS",
+      "description": "From what I can tell, it looks like Foundation for Apps (FA) was created because folks had issues making AngularJS and Foundation 5 play nicely together. <a href=\"http://zurb.com/article/1312/the-next-foundation\" target=\"_blank\" >The Next Foundation</a> explains why FA was created. Reddit's web_design zone has quite a few <a href=\"http://www.reddit.com/r/web_design/comments/26btc4/zurb_the_next_foundation_foundation_built_with/\" target=\"_blank\" >comments related to this article</a>.",
+      "references": [
+        {
+          "label": "Best Practices for using Foundation with AngularJS",
+          "url": "https://raibledesigns.com/rd/entry/best_practices_for_using_foundation"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "zurb foundation",
+        "angular 2.x",
+        "angular 1.x",
+        "css"
+      ],
+      "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "The Next Foundation",
+      "description": "It's been almost three years that we've been working on Foundation with you guys, and we've come a long ways. Foundation has been used by over a million designers and developers on at least 330,000 public sites, gone through five major iterations (and many, many smaller ones), and has contributions from almost 500 people. For responsive sites, we're pretty pleased with what Foundation has been able to help people do.",
+      "references": [
+        {
+          "label": "The Next Foundation",
+          "url": "http://zurb.com/article/1312/the-next-foundation"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "zurb foundation",
+        "angular 2.x",
+        "angular 1.x",
+        "css"
+      ],
+      "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "Foundation for Apps",
+      "description": "The first front-end framework created for developing fully responsive web apps.",
+      "references": [
+        {
+          "label": "Foundation for Apps",
+          "url": "http://foundation.zurb.com/apps/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "zurb foundation",
+        "angular 2.x",
+        "angular 1.x",
+        "css"
+      ],
+      "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "Angular Foundation",
+      "description": "This repository contains a set of native AngularJS directives based on Foundation's markup and CSS. As a result no dependency on jQuery or Foundation's JavaScript is required.",
+      "references": [
+        {
+          "label": "Foundation for Apps",
+          "url": "http://pineconellc.github.io/angular-foundation/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/pineconellc/angular-foundation"
+      },
+      "tags": [
+        "zurb foundation",
+        "angular 2.x",
+        "angular 1.x",
+        "css"
+      ],
+      "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "Does angularjs integrate better with twitter bootstrap or zurb foundation?",
+      "description": "There's a repo of native Angular JS directives for Foundation that seems to work pretty well. It doesn't rely on jQuery or any of Foundation's original JS, so a couple of Foundation's JS plugins appear to be missing. However they also added in a couple more components like Typeahead.",
+      "references": [
+        {
+          "label": "Foundation for Apps",
+          "url": "http://www.quora.com/Does-angularjs-integrate-better-with-twitter-bootstrap-or-zurb-foundation"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/pineconellc/angular-foundation"
+      },
+      "tags": [
+        "zurb foundation",
+        "angular 2.x",
+        "angular 1.x",
+        "css"
+      ],
+      "dataSet": "zurb-foundation/zurb-foundation-data",
       "show": true
     }
   ]
