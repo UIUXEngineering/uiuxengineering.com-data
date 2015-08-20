@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Foundation 5 and AngularJS integration",
+    "description": "",
+    "references": [
+      {
+        "label": "Foundation 5 and AngularJS integration",
+        "url": "http://foundation.zurb.com/forum/posts/19902-foundation-5-and-angularjs-integration"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+  "title": "Dgeni - Documentation Generator",
+  "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
+  "references": [
+    {
+      "label": "Documentation Generator",
+      "url": "https://github.com/angular/dgeni"
+    },
+    {
+      "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
+      "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
+    }
+  ],
+  "repo": {
+    "label": "Documentation Generator",
+    "server": "https://github.com",
+    "repoType": "git",
+    "url": "https://github.com/angular/dgeni"
+  },
+  "tags": [
+    ""
+  ],
+  "dataSet": "",
+  "show": true
+}
+]

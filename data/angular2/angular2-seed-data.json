@@ -1,24 +1,5 @@
 [
-  {
-    "show":true,
-    "title":"Curated list of resources for learning how to Angular2",
-    "description": "",
-    "references":[
-      {
-        "label": "Angular 2",
-        "url":"http://www.angular2.com/"
-      }
-    ],
-    "repo": {
-      "label":"",
-      "server":"",
-      "repoType": "",
-      "url": ""
-    },
-    "tags":["angular 2.x", "seed"],
-    "type":"",
-    "show": true
-  },
+
   {
     "show": true,
     "description": "",
@@ -41,7 +22,7 @@
   },
   {
     "show":true,
-    "description": "",
+    "description": "Includes service.",
     "title":"Creating a Super Simple Todo app Using Angular 2 —Tutorial",
     "references":[
       {
@@ -55,7 +36,7 @@
       "repoType":"git",
       "url":"https://github.com/angular/quickstart"
     },
-    "tags":["angular 2.x", "seed"],
+    "tags":["angular 2.x", "seed", "service"],
     "type":"",
     "show": true
   },
