@@ -1,5 +1,26 @@
 [
   {
+    "title": "$watch vs $observe",
+    "description": "There's a great answer on Stack Overflow addressing the differences between these methods. Below are the key points.",
+    "references": [
+      {
+        "label": "$watch-vs-$observe",
+        "url": "http://ng.malsup.com/#!/$watch-vs-$observe"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "",
+      "repoType": "",
+      "url": ""
+    },
+    "tags": [
+      "angular 1.x"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "show": true,
     "title": "How to start writing apps with ES6, Angular 1.x and JSPM",
     "description": "",
@@ -10,12 +31,15 @@
       }
     ],
     "repo": {
-      "label":"Employee Scheduling UI",
+      "label": "Employee Scheduling UI",
       "server": "https://github.com/",
       "repoType": "git",
       "url": "https://github.com/martinmicunda/employee-scheduling-ui"
     },
-    "tags": ["seed", "angular 1.x"]
+    "tags": [
+      "seed",
+      "angular 1.x"
+    ]
   },
   {
     "show": true,
@@ -33,7 +57,10 @@
       "repoType": "git",
       "url": "https://github.com/origin1tech/jspm-angular-seed"
     },
-    "tags": ["seed", "angular 1.x"]
+    "tags": [
+      "seed",
+      "angular 1.x"
+    ]
   },
   {
     "show": true,
@@ -46,47 +73,54 @@
       }
     ],
     "repo": {
-      "label":"",
+      "label": "",
       "server": "https://github.com/",
       "repoType": "git",
-      "url":""
+      "url": ""
     },
-    "tags": ["angular 1.x"]
+    "tags": [
+      "angular 1.x"
+    ]
   },
   {
     "show": true,
     "title": "Using ES6 with Angular today",
     "description": "",
-    "references":[
+    "references": [
       {
         "label": "Angular 1.3 using es6",
         "url": "http://blog.thoughtram.io/angularjs/es6/2015/01/23/exploring-angular-1.3-using-es6.html"
       }
     ],
     "repo": {
-      "label":"es6 babel browserify boilerplate",
+      "label": "es6 babel browserify boilerplate",
       "server": "https://github.com/",
       "repoType": "git",
       "url": "https://github.com/thoughtram/es6-babel-browserify-boilerplate"
     },
-    "tags": ["angular 1.x", "seed"]
+    "tags": [
+      "angular 1.x",
+      "seed"
+    ]
   },
   {
     "show": true,
     "title": "Using ECMAScript 6 (ES6) with AngularJS 1.x",
     "description": "",
-    "references":[
+    "references": [
       {
         "label": "Angular 1.x with ES6",
         "url": "https://www.timroes.de/2015/07/29/using-ecmascript-6-es6-with-angularjs-1-x/"
       }
     ],
-    "repo":{
-      "label":"Angular ES6 Sample",
+    "repo": {
+      "label": "Angular ES6 Sample",
       "server": "https://github.com/",
       "repoType": "git",
-      "url":"https://github.com/timroes/angular-es6-sample"
+      "url": "https://github.com/timroes/angular-es6-sample"
     },
-    "tags": ["angular 1.x"]
+    "tags": [
+      "angular 1.x"
+    ]
   }
 ]
