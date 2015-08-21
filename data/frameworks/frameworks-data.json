@@ -1,5 +1,26 @@
 [
   {
+    "title": "async",
+    "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
+    "references": [
+      {
+        "label": "async",
+        "url": "http://reactivex.io/"
+      }
+    ],
+    "repo": {
+      "label": "async",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/caolan/async"
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "title": "falcor",
     "description": "A JavaScript library for efficient data fetching",
     "references": [
