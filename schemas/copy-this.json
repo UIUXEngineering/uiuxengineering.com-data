@@ -9,8 +9,8 @@
   ],
   "repo": {
     "label": "",
-    "server": "",
-    "repoType": "",
+    "server": "https://github.com",
+    "repoType": "git",
     "url": ""
   },
   "tags": [
