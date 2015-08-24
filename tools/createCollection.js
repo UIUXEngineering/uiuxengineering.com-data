@@ -56,6 +56,7 @@ function createFromSchema(allRawDataSets) {
 
 
     //Iterate All Data sets from gulp.src('data/**/*.json')
+    //Create one flat collection
     for (var dataSet in allRawDataSets) {
 
         console.log("Copying " + allRawDataSets[dataSet].length + " records from " + dataSet);

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Shell Scripting Primer",
+    "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
+    "references": [
+      {
+        "label": "Shell Scripting Primer",
+        "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": ""
+    },
+    "tags": [
+      "Terminal", "Shell"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

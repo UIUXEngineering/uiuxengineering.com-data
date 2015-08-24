@@ -103,6 +103,8 @@
     "LinkedIn",
     "Observable",
     "RxJs",
+    "Shell",
+    "Terminal",
     "angular 1.x",
     "angular 2.x",
     "async",
@@ -136,6 +138,7 @@
     "json-schema/json-glossary-data",
     "node-modules/node-modules-data",
     "scala/scala-data",
+    "shellscript/shellscript-data",
     "typescript/typescript-data",
     "zurb-foundation/zurb-foundation-data"
   ],
@@ -593,6 +596,81 @@
       "show": true
     },
     {
+      "title": "jspm",
+      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "references": [
+        {
+          "label": "jspm.io",
+          "url": "http://jspm.io/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "package manager"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "references": [
+        {
+          "label": "SystemJS",
+          "url": "https://github.com/systemjs/systemjs"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "loader",
+        "AMD",
+        "CommonJS",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "Traceur",
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "references": [
+        {
+          "label": "Traceur Compiler",
+          "url": "https://github.com/google/traceur-compiler"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "build",
+        "ES6",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
       "title": "",
       "description": "",
       "references": [
@@ -740,81 +818,6 @@
       ],
       "dataSet": "design-patterns/design-patterns-data",
       "show": true
-    },
-    {
-      "title": "jspm",
-      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
-      "references": [
-        {
-          "label": "jspm.io",
-          "url": "http://jspm.io/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "package manager"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "SystemJS",
-      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-      "references": [
-        {
-          "label": "SystemJS",
-          "url": "https://github.com/systemjs/systemjs"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "loader",
-        "AMD",
-        "CommonJS",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "Traceur",
-      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-      "references": [
-        {
-          "label": "Traceur Compiler",
-          "url": "https://github.com/google/traceur-compiler"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "build",
-        "ES6",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
     },
     {
       "title": "async",
@@ -994,27 +997,6 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
       "title": "Async Dynamic Alias Task",
       "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
       "references": [
@@ -1035,6 +1017,27 @@
         "task runner"
       ],
       "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
       "show": true
     },
     {
@@ -1185,6 +1188,28 @@
         "node"
       ],
       "dataSet": "node-modules/node-modules-data",
+      "show": true
+    },
+    {
+      "title": "Shell Scripting Primer",
+      "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
+      "references": [
+        {
+          "label": "Shell Scripting Primer",
+          "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "Terminal",
+        "Shell"
+      ],
+      "dataSet": "shellscript/shellscript-data",
       "show": true
     },
     {
