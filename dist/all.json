@@ -109,10 +109,12 @@
     "Terminal",
     "angular 1.x",
     "angular 2.x",
+    "api",
     "async",
     "best practices",
     "build",
     "css",
+    "google maps",
     "grunt",
     "javascript",
     "loader",
@@ -274,6 +276,48 @@
         "angular 1.x"
       ],
       "dataSet": "angular1/angular1-data"
+    },
+    {
+      "title": "ControlGroup",
+      "description": "Most forms have more than one field, so we need a way to manage multiple Controls. If we wanted to check the validity of our form, it’s cumbersome to iterate over an array of Controls and check each Control for validity. ControlGroups solve this issue by providing a wrapper interface around a collection of Controls.",
+      "references": [
+        {
+          "label": "",
+          "url": ""
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "angular 2.x"
+      ],
+      "dataSet": "angular2/angular2-glossary-data",
+      "show": true
+    },
+    {
+      "title": "Control",
+      "description": "A Control represents a single input field - it is the smallest unit of an ng2 form. Controls encapsulate the field’s value, a states such as if it is valid, dirty (changed), or has errors.",
+      "references": [
+        {
+          "label": "",
+          "url": ""
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "angular 2.x"
+      ],
+      "dataSet": "angular2/angular2-glossary-data",
+      "show": true
     },
     {
       "show": true,
@@ -576,6 +620,36 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
+      "title": "Style Google Map",
+      "description": "",
+      "references": [
+        {
+          "label": "Stackoverflow",
+          "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
+        },
+        {
+          "label": "Google Maps JavaScript API",
+          "url": "https://developers.google.com/maps/documentation/javascript/styling"
+        },
+        {
+          "label": "How to use the Styled Maps Wizard",
+          "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "api",
+        "google maps"
+      ],
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
       "title": "AlchemyData News API ",
       "description": "AlchemyDataNews API allows users to query daily news indexes of 250 to 300 thousand English language blog and new articles. The API also allows historical queries for the previous 60 days. Responses are in JSON or XML and use an API Key for authentication AlchemyAPI is a text mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation, etc.",
       "references": [
@@ -696,22 +770,23 @@
       "dataSet": "common/common-data"
     },
     {
-      "title": "",
-      "description": "",
+      "title": "Observable Spec",
+      "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
       "references": [
         {
-          "label": "",
-          "url": ""
+          "label": "Observable Spec",
+          "url": "https://github.com/jhusain/observable-spec"
         }
       ],
       "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
+        "label": "Observable Spec",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/jhusain/observable-spec"
       },
       "tags": [
-        ""
+        "Design Patterns",
+        "Observable"
       ],
       "dataSet": "design-patterns/design-patterns-data",
       "show": true
@@ -865,71 +940,6 @@
         "task runner"
       ],
       "dataSet": "grunt/grunt-2-data",
-      "show": true
-    },
-    {
-      "title": "Inheritance and the prototype chain",
-      "description": "",
-      "references": [
-        {
-          "label": "Inheritance and the prototype chain",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "javascript/javascript-data",
-      "show": true
-    },
-    {
-      "title": "JavaScript Guide",
-      "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language. If you want to get started with JavaScript or programming in general, consult the articles in the learning area. If you need exhaustive information about a language feature, have a look at the JavaScript reference.",
-      "references": [
-        {
-          "label": "JavaScript Guide",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "best practices"
-      ],
-      "dataSet": "javascript/javascript-data",
-      "show": true
-    },
-    {
-      "title": "Introduction to Object-Oriented JavaScript",
-      "description": "Object-oriented to the core, JavaScript features powerful, flexible OOP capabilities. This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.",
-      "references": [
-        {
-          "label": "Introduction to Object-Oriented JavaScript",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "best practices"
-      ],
-      "dataSet": "javascript/javascript-data",
       "show": true
     },
     {
@@ -1110,6 +1120,71 @@
       "show": true
     },
     {
+      "title": "Inheritance and the prototype chain",
+      "description": "",
+      "references": [
+        {
+          "label": "Inheritance and the prototype chain",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "JavaScript Guide",
+      "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language. If you want to get started with JavaScript or programming in general, consult the articles in the learning area. If you need exhaustive information about a language feature, have a look at the JavaScript reference.",
+      "references": [
+        {
+          "label": "JavaScript Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "best practices"
+      ],
+      "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "Introduction to Object-Oriented JavaScript",
+      "description": "Object-oriented to the core, JavaScript features powerful, flexible OOP capabilities. This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.",
+      "references": [
+        {
+          "label": "Introduction to Object-Oriented JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "best practices"
+      ],
+      "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
       "title": "JavaRanch",
       "description": "a friendly place for Java greenhorns!",
       "references": [
@@ -1128,6 +1203,28 @@
         "Java"
       ],
       "dataSet": "java/java-data",
+      "show": true
+    },
+    {
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "references": [
+        {
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "snippet"
+      ],
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -1170,28 +1267,6 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
-      "show": true
-    },
-    {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
-      "references": [
-        {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "snippet"
-      ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
