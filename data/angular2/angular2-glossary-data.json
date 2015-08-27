@@ -1,5 +1,46 @@
 [
-
+  {
+    "title": "ControlGroup",
+    "description": "Most forms have more than one field, so we need a way to manage multiple Controls. If we wanted to check the validity of our form, it’s cumbersome to iterate over an array of Controls and check each Control for validity. ControlGroups solve this issue by providing a wrapper interface around a collection of Controls.",
+    "references": [
+      {
+        "label": "",
+        "url": ""
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": ""
+    },
+    "tags": [
+      "angular 2.x"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "Control",
+    "description": "A Control represents a single input field - it is the smallest unit of an ng2 form. Controls encapsulate the field’s value, a states such as if it is valid, dirty (changed), or has errors.",
+    "references": [
+      {
+        "label": "",
+        "url": ""
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": ""
+    },
+    "tags": [
+      "angular 2.x"
+    ],
+    "dataSet": "",
+    "show": true
+  },
   {
     "show":true,
     "title":"Curated list of resources for learning how to Angular2",

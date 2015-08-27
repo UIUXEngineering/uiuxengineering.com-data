@@ -1,21 +1,21 @@
 [
   {
-    "title": "",
-    "description": "",
+    "title": "Observable Spec",
+    "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
     "references": [
       {
-        "label": "",
-        "url": ""
+        "label": "Observable Spec",
+        "url": "https://github.com/jhusain/observable-spec"
       }
     ],
     "repo": {
-      "label": "",
-      "server": "",
-      "repoType": "",
-      "url": ""
+      "label": "Observable Spec",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/jhusain/observable-spec"
     },
     "tags": [
-      ""
+      "Design Patterns", "Observable"
     ],
     "dataSet": "",
     "show": true
