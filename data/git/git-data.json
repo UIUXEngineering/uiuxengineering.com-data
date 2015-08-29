@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Syncing a fork",
+    "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
+    "references": [
+      {
+        "label": "Syncing a fork",
+        "url": "https://help.github.com/articles/syncing-a-fork/"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": ""
+    },
+    "tags": [
+      "GIT"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

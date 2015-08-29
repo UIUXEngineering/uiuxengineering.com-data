@@ -4,11 +4,32 @@
 var _ = require('lodash');
 
 function flattenUniqSort(values) {
-    values = _.flatten(values);
-    values = _.uniq(values);
-    values = _.sortBy(values, function(num) {
-        return num;
-    });
+
+    function lowercase(val) {
+        return _.isString(val) ? val.toLowerCase() : val;
+    }
+
+    //values = _.flatten(values);
+    //values = _.map(values, lowercase);
+    //values = _.uniq(values);
+    //values = _.sortBy(values, function(num) {
+    //    return num;
+    //});
+    //values = _.without(values, "");
+
+    values =
+        _.without( //Remove empty strings
+            _.sortBy( //Alphabetical order
+                _.uniq( //remove duplicates
+                    _.map( //all lowercase
+                        _.flatten(values), lowercase) //no nested arrays
+                ),
+                function (num) {
+                    return num;
+                }
+            ),
+            ""
+        );
 
     return values;
 }
@@ -27,12 +48,11 @@ module.exports.getValuesArray = function getValuesArray(allRawDataSets, prop) {
         var i = 0, iLen = allRawDataSets[dataSet].length;
         for (i; i < iLen; i++) {
 
-            values.push( _.get(allRawDataSets[dataSet][i], prop) );
+            values.push(_.get(allRawDataSets[dataSet][i], prop));
 
         }
 
     }
-
 
 
     return {

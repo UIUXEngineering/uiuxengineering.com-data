@@ -87,44 +87,42 @@
     }
   },
   "tags": [
-    "",
-    "@View",
-    "AMD",
-    "API",
-    "Angular 1.x",
-    "Asynchronous",
-    "Code",
-    "CommonJS",
-    "Data",
-    "Data Mining",
-    "Design Patterns",
-    "ES6",
-    "JSON",
-    "Java",
-    "Learn",
-    "LinkedIn",
-    "Observable",
-    "RxJs",
-    "Shell",
-    "Terminal",
+    "@view",
+    "amd",
     "angular 1.x",
     "angular 2.x",
     "api",
     "async",
+    "asynchronous",
     "best practices",
     "build",
+    "code",
+    "commonjs",
     "css",
+    "data",
+    "data mining",
+    "design patterns",
+    "es6",
+    "git",
     "google maps",
     "grunt",
+    "java",
     "javascript",
+    "json",
+    "learn",
+    "linkedin",
     "loader",
     "loading",
     "node",
+    "observable",
     "package manager",
+    "rxjs",
     "seed",
     "service",
+    "shell",
     "snippet",
     "task runner",
+    "terminal",
     "zurb foundation"
   ],
   "dataSetList": [
@@ -136,6 +134,7 @@
     "common/common-data",
     "design-patterns/design-patterns-data",
     "frameworks/frameworks-data",
+    "git/git-data",
     "grunt/grunt-2-data",
     "java/java-data",
     "javascript-snippets/javascript-snippets-data",
@@ -770,179 +769,6 @@
       "dataSet": "common/common-data"
     },
     {
-      "title": "Observable Spec",
-      "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
-      "references": [
-        {
-          "label": "Observable Spec",
-          "url": "https://github.com/jhusain/observable-spec"
-        }
-      ],
-      "repo": {
-        "label": "Observable Spec",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/jhusain/observable-spec"
-      },
-      "tags": [
-        "Design Patterns",
-        "Observable"
-      ],
-      "dataSet": "design-patterns/design-patterns-data",
-      "show": true
-    },
-    {
-      "title": "101 Design Patterns & Tips for Developers",
-      "description": "",
-      "references": [
-        {
-          "label": "101 Design Patterns & Tips for Developers",
-          "url": "https://sourcemaking.com/design-patterns-and-tips"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "dataSet": "design-patterns/design-patterns-data",
-      "show": true
-    },
-    {
-      "title": "The Node Way",
-      "description": "",
-      "references": [
-        {
-          "label": "The Node Way",
-          "url": "http://thenodeway.io/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "dataSet": "design-patterns/design-patterns-data",
-      "show": true
-    },
-    {
-      "title": "The strange world of Node.js design patterns",
-      "description": "",
-      "references": [
-        {
-          "label": "The strange world of Node.js design patterns",
-          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
-        }
-      ],
-      "repo": {
-        "label": "FredKSchott/the-node-way",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/FredKSchott/the-node-way"
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "dataSet": "design-patterns/design-patterns-data",
-      "show": true
-    },
-    {
-      "title": "Law of Demeter",
-      "description": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
-      "references": [
-        {
-          "label": "Law of Demeter",
-          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "type": "article",
-      "show": true,
-      "dataSet": "design-patterns/design-patterns-data"
-    },
-    {
-      "title": "Skinny Controller, Fat Model",
-      "description": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
-      "references": [
-        {
-          "label": "Skinny controller fat model",
-          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "type": "article",
-      "tags": [
-        "Design Patterns"
-      ],
-      "show": true,
-      "dataSet": "design-patterns/design-patterns-data"
-    },
-    {
-      "title": "Generifying your Design Patterns",
-      "description": "Part I: The Visitor ",
-      "references": [
-        {
-          "label": "Part I: The Visitor ",
-          "url": "http://www.javaranch.com/journal/200601/visitor.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Design Patterns"
-      ],
-      "dataSet": "design-patterns/design-patterns-data",
-      "show": true
-    },
-    {
-      "title": "Async Dynamic Alias Task",
-      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
-      "references": [
-        {
-          "label": "Async Dynamic Alias Task",
-          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "grunt",
-        "async",
-        "task runner"
-      ],
-      "dataSet": "grunt/grunt-2-data",
-      "show": true
-    },
-    {
       "title": "async",
       "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
       "references": [
@@ -1120,6 +946,243 @@
       "show": true
     },
     {
+      "title": "Observable Spec",
+      "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
+      "references": [
+        {
+          "label": "Observable Spec",
+          "url": "https://github.com/jhusain/observable-spec"
+        }
+      ],
+      "repo": {
+        "label": "Observable Spec",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/jhusain/observable-spec"
+      },
+      "tags": [
+        "Design Patterns",
+        "Observable"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "101 Design Patterns & Tips for Developers",
+      "description": "",
+      "references": [
+        {
+          "label": "101 Design Patterns & Tips for Developers",
+          "url": "https://sourcemaking.com/design-patterns-and-tips"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "The Node Way",
+      "description": "",
+      "references": [
+        {
+          "label": "The Node Way",
+          "url": "http://thenodeway.io/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "The strange world of Node.js design patterns",
+      "description": "",
+      "references": [
+        {
+          "label": "The strange world of Node.js design patterns",
+          "url": "https://blog.risingstack.com/fundamental-node-js-design-patterns/"
+        }
+      ],
+      "repo": {
+        "label": "FredKSchott/the-node-way",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/FredKSchott/the-node-way"
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "Law of Demeter",
+      "description": "The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.",
+      "references": [
+        {
+          "label": "Law of Demeter",
+          "url": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "type": "article",
+      "show": true,
+      "dataSet": "design-patterns/design-patterns-data"
+    },
+    {
+      "title": "Skinny Controller, Fat Model",
+      "description": "The \"Fat Controller\" anti-pattern is shown and dissected, and the reader is taken through the process of refactoring it into a more readable, maintainable, and testable solution — 8-minute read",
+      "references": [
+        {
+          "label": "Skinny controller fat model",
+          "url": "http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "type": "article",
+      "tags": [
+        "Design Patterns"
+      ],
+      "show": true,
+      "dataSet": "design-patterns/design-patterns-data"
+    },
+    {
+      "title": "Generifying your Design Patterns",
+      "description": "Part I: The Visitor ",
+      "references": [
+        {
+          "label": "Part I: The Visitor ",
+          "url": "http://www.javaranch.com/journal/200601/visitor.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Design Patterns"
+      ],
+      "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "Syncing a fork",
+      "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
+      "references": [
+        {
+          "label": "Syncing a fork",
+          "url": "https://help.github.com/articles/syncing-a-fork/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "GIT"
+      ],
+      "dataSet": "git/git-data",
+      "show": true
+    },
+    {
+      "title": "Async Dynamic Alias Task",
+      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "references": [
+        {
+          "label": "Async Dynamic Alias Task",
+          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "grunt",
+        "async",
+        "task runner"
+      ],
+      "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "references": [
+        {
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "snippet"
+      ],
+      "dataSet": "javascript-snippets/javascript-snippets-data",
+      "show": true
+    },
+    {
       "title": "Inheritance and the prototype chain",
       "description": "",
       "references": [
@@ -1182,49 +1245,6 @@
         "best practices"
       ],
       "dataSet": "javascript/javascript-data",
-      "show": true
-    },
-    {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
-      "references": [
-        {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "snippet"
-      ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
