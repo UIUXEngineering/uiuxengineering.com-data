@@ -6,16 +6,8 @@
       "description": "UIUX Engineering Data Schema",
       "id": "UIUXDataObject",
       "type": "object",
-      "properties": {
-        "title": {
-          "type": "string",
-          "description": "Term to be defined."
-        },
-        "description": {
-          "type": "string",
-          "description": "Definition of term."
-        },
-        "references": {
+      "definitions": {
+        "urlsArray": {
           "type": "array",
           "description": "array of url titles and links.",
           "items": {
@@ -34,84 +26,85 @@
             ]
           }
         },
-        "repo": {
-          "type": "object",
-          "description": "Code repository providing starter environment.",
-          "properties": {
-            "label": {
-              "type": "string"
-            },
-            "server": {
-              "type": "string",
-              "description": "github, bitbucket, tfs"
-            },
-            "repotype": {
-              "type": "string",
-              "description": "git, svn"
-            },
-            "url": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "label",
-            "server",
-            "repoType",
-            "url"
-          ]
-        },
-        "tags": {
+        "stringArray": {
           "type": "array",
-          "description": "taxonomy words or phrases",
           "items": {
             "type": "string"
           }
         },
-        "dataSet": {
-          "type": "string",
-          "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
-        },
-        "show": {
-          "type": "boolean"
-        },
         "tutorials": {
-          "type": "array",
-          "description": "List of tutorials",
-          "items": {
-            "type": "object",
-            "properties": {
-              "label": {
-                "type": "string"
-              },
-              "url": {
-                "type": "string"
-              },
-              "code": {
-                "type": "array",
-                "description": "List of tutorials",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "label": {
-                      "type": "string"
-                    },
-                    "url": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "label",
-                    "url"
-                  ]
-                }
-              }
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string"
             },
-            "required": [
-              "label",
-              "url"
-            ]
-          }
+            "url": {
+              "type": "string"
+            },
+            "code": {
+              "description": "List of tutorials",
+              "$ref": "#/definitions/urlsArray"
+            }
+          },
+          "required": [
+            "label",
+            "url"
+          ]
         }
+      },
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Term to be defined."
+        },
+        "description": {
+          "type": "string",
+          "description": "Definition of term."
+        },
+        "references": {
+          "$ref": "#/definitions/urlsArray"
+        }
+      },
+      "repo": {
+        "type": "object",
+        "description": "Code repository providing starter environment.",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "server": {
+            "type": "string",
+            "description": "github, bitbucket, tfs"
+          },
+          "repotype": {
+            "type": "string",
+            "description": "git, svn"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "label",
+          "server",
+          "repoType",
+          "url"
+        ]
+      },
+      "tags": {
+        "description": "taxonomy words or phrases",
+        "$ref": "#/definitions/stringArray"
+      },
+      "dataSet": {
+        "type": "string",
+        "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
+      },
+      "show": {
+        "type": "boolean"
+      },
+      "tutorials": {
+        "description": "List of tutorials with code samples",
+        "$ref": "#/definitions/tutorials"
       },
       "required": [
         "title",
@@ -658,79 +651,6 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
-      "title": "GitHub",
-      "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
-      "references": [
-        {
-          "label": "GitHub",
-          "url": "https://developer.github.com/v3/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "api/api-data",
-      "show": true
-    },
-    {
-      "title": "Style Google Map",
-      "description": "",
-      "references": [
-        {
-          "label": "Stackoverflow",
-          "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
-        },
-        {
-          "label": "Google Maps JavaScript API",
-          "url": "https://developers.google.com/maps/documentation/javascript/styling"
-        },
-        {
-          "label": "How to use the Styled Maps Wizard",
-          "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "api",
-        "google maps"
-      ],
-      "dataSet": "api/api-data",
-      "show": true
-    },
-    {
-      "title": "AlchemyData News API ",
-      "description": "AlchemyDataNews API allows users to query daily news indexes of 250 to 300 thousand English language blog and new articles. The API also allows historical queries for the previous 60 days. Responses are in JSON or XML and use an API Key for authentication AlchemyAPI is a text mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation, etc.",
-      "references": [
-        {
-          "label": "AlchemyData News API ",
-          "url": "http://www.programmableweb.com/api/alchemydata-news"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "API",
-        "Data Mining"
-      ],
-      "dataSet": "api/api-data",
-      "show": true
-    },
-    {
       "title": "So You Want to Learn How to Code",
       "description": "",
       "references": [
@@ -827,6 +747,79 @@
       "type": "",
       "show": true,
       "dataSet": "common/common-data"
+    },
+    {
+      "title": "GitHub",
+      "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
+      "references": [
+        {
+          "label": "GitHub",
+          "url": "https://developer.github.com/v3/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
+      "title": "Style Google Map",
+      "description": "",
+      "references": [
+        {
+          "label": "Stackoverflow",
+          "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
+        },
+        {
+          "label": "Google Maps JavaScript API",
+          "url": "https://developers.google.com/maps/documentation/javascript/styling"
+        },
+        {
+          "label": "How to use the Styled Maps Wizard",
+          "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "api",
+        "google maps"
+      ],
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
+      "title": "AlchemyData News API ",
+      "description": "AlchemyDataNews API allows users to query daily news indexes of 250 to 300 thousand English language blog and new articles. The API also allows historical queries for the previous 60 days. Responses are in JSON or XML and use an API Key for authentication AlchemyAPI is a text mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation, etc.",
+      "references": [
+        {
+          "label": "AlchemyData News API ",
+          "url": "http://www.programmableweb.com/api/alchemydata-news"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "API",
+        "Data Mining"
+      ],
+      "dataSet": "api/api-data",
+      "show": true
     },
     {
       "title": "Observable Spec",
@@ -1210,6 +1203,50 @@
       "show": true
     },
     {
+      "title": "Async Dynamic Alias Task",
+      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "references": [
+        {
+          "label": "Async Dynamic Alias Task",
+          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "grunt",
+        "async",
+        "task runner"
+      ],
+      "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
       "title": "Inheritance and the prototype chain",
       "description": "",
       "references": [
@@ -1275,12 +1312,12 @@
       "show": true
     },
     {
-      "title": "Async Dynamic Alias Task",
-      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
       "references": [
         {
-          "label": "Async Dynamic Alias Task",
-          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
         }
       ],
       "repo": {
@@ -1290,11 +1327,10 @@
         "url": ""
       },
       "tags": [
-        "grunt",
-        "async",
-        "task runner"
+        "javascript",
+        "snippet"
       ],
-      "dataSet": "grunt/grunt-2-data",
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -1340,28 +1376,6 @@
       "show": true
     },
     {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
-      "references": [
-        {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "snippet"
-      ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
-      "show": true
-    },
-    {
       "title": "TSUN - TypeScript Upgraded Node",
       "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
       "references": [
@@ -1380,27 +1394,6 @@
         "node"
       ],
       "dataSet": "node-modules/node-modules-data",
-      "show": true
-    },
-    {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
       "show": true
     },
     {

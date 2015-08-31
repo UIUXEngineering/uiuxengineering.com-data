@@ -8,16 +8,8 @@ module.exports = {
     "description": "UIUX Engineering Data Schema",
     "id": "UIUXDataObject",
     "type": "object",
-    "properties": {
-        "title": {
-            "type": "string",
-            "description": "Term to be defined."
-        },
-        "description": {
-            "type": "string",
-            "description": "Definition of term."
-        },
-        "references": {
+    "definitions": {
+        "urlsArray": {
             "type": "array",
             "description": "array of url titles and links.",
             "items": {
@@ -28,64 +20,69 @@ module.exports = {
                 },
                 "required": ["label", "url"]
             }
-
-
         },
-        "repo": {
-            "type": "object",
-            "description": "Code repository providing starter environment.",
-            "properties": {
-                "label": {"type": "string"},
-                "server": {
-                    "type": "string",
-                    "description": "github, bitbucket, tfs"
-                },
-                "repotype": {
-                    "type": "string",
-                    "description": "git, svn"
-                },
-                "url": {"type": "string"}
-            },
-            "required": ["label", "server", "repoType", "url"]
-        },
-        "tags": {
+
+        "stringArray": {
             "type": "array",
-            "description": "taxonomy words or phrases",
             "items": {"type": "string"}
         },
-        "dataSet": {
-            "type": "string",
-            "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
-        },
-        "show": {"type": "boolean"},
         "tutorials": {
-            "type": "array",
-            "description": "List of tutorials",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "label": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    },
-                    "code": {
-                        "type": "array",
-                        "description": "List of tutorials",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "label": {"type": "string"},
-                                "url": {"type": "string"}
-                            },
-                            "required": ["label", "url"]
-                        }
-                    }
+            "type": "object",
+            "properties": {
+                "label": {
+                    "type": "string"
                 },
-                "required": ["label", "url"]
-            }
+                "url": {
+                    "type": "string"
+                },
+                "code": {
+                    "description": "List of tutorials",
+                    "$ref": "#/definitions/urlsArray"
+                }
+            },
+            "required": ["label", "url"]
         }
+
     },
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "Term to be defined."
+        },
+        "description": {
+            "type": "string",
+            "description": "Definition of term."
+        },
+        "references": {"$ref": "#/definitions/urlsArray"}
+    },
+    "repo": {
+        "type": "object",
+        "description": "Code repository providing starter environment.",
+        "properties": {
+            "label": {"type": "string"},
+            "server": {
+                "type": "string",
+                "description": "github, bitbucket, tfs"
+            },
+            "repotype": {
+                "type": "string",
+                "description": "git, svn"
+            },
+            "url": {"type": "string"}
+        },
+        "required": ["label", "server", "repoType", "url"]
+    },
+    "tags": {
+        "description": "taxonomy words or phrases",
+        "$ref": "#/definitions/stringArray"
+    },
+    "dataSet": {
+        "type": "string",
+        "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
+    },
+    "show": {"type": "boolean"},
+    "tutorials": {
+        "description": "List of tutorials with code samples",
+        "$ref": "#/definitions/tutorials"},
     "required": ["title", "description", "references", "repo", "tags", "dataSet", "show"]
 };
