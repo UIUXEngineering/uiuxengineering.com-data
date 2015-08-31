@@ -85,6 +85,25 @@
               },
               "url": {
                 "type": "string"
+              },
+              "code": {
+                "type": "array",
+                "description": "List of tutorials",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "url"
+                  ]
+                }
               }
             },
             "required": [
@@ -735,6 +754,81 @@
       "show": true
     },
     {
+      "title": "jspm",
+      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "references": [
+        {
+          "label": "jspm.io",
+          "url": "http://jspm.io/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "package manager"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "references": [
+        {
+          "label": "SystemJS",
+          "url": "https://github.com/systemjs/systemjs"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "loader",
+        "AMD",
+        "CommonJS",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "Traceur",
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "references": [
+        {
+          "label": "Traceur Compiler",
+          "url": "https://github.com/google/traceur-compiler"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "build",
+        "ES6",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
       "title": "Observable Spec",
       "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
       "references": [
@@ -885,123 +979,6 @@
       "show": true
     },
     {
-      "title": "jspm",
-      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
-      "references": [
-        {
-          "label": "jspm.io",
-          "url": "http://jspm.io/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "package manager"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "SystemJS",
-      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-      "references": [
-        {
-          "label": "SystemJS",
-          "url": "https://github.com/systemjs/systemjs"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "loader",
-        "AMD",
-        "CommonJS",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "Traceur",
-      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-      "references": [
-        {
-          "label": "Traceur Compiler",
-          "url": "https://github.com/google/traceur-compiler"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "build",
-        "ES6",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "fastclick",
-      "description": "Polyfill to remove click delays on browsers with touch UIs",
-      "references": [
-        {
-          "label": "fastclick",
-          "url": "https://github.com/ftlabs/fastclick"
-        }
-      ],
-      "repo": {
-        "label": "fastclick",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/ftlabs/fastclick.git"
-      },
-      "tags": [
-        "polyfill"
-      ],
-      "dataSet": "git/git-data",
-      "show": true
-    },
-    {
-      "title": "Syncing a fork",
-      "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
-      "references": [
-        {
-          "label": "Syncing a fork",
-          "url": "https://help.github.com/articles/syncing-a-fork/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "GIT"
-      ],
-      "dataSet": "git/git-data",
-      "show": true
-    },
-    {
       "title": "async",
       "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
       "references": [
@@ -1113,7 +1090,13 @@
       "tutorials": [
         {
           "label": "The introduction to Reactive Programming you've been missing",
-          "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754"
+          "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+          "code": [
+            {
+              "label": "jsFiddle",
+              "url": "http://jsfiddle.net/staltz/8jFJH/48/"
+            }
+          ]
         }
       ]
     },
@@ -1182,6 +1165,48 @@
         ""
       ],
       "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "fastclick",
+      "description": "Polyfill to remove click delays on browsers with touch UIs",
+      "references": [
+        {
+          "label": "fastclick",
+          "url": "https://github.com/ftlabs/fastclick"
+        }
+      ],
+      "repo": {
+        "label": "fastclick",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/ftlabs/fastclick.git"
+      },
+      "tags": [
+        "polyfill"
+      ],
+      "dataSet": "git/git-data",
+      "show": true
+    },
+    {
+      "title": "Syncing a fork",
+      "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
+      "references": [
+        {
+          "label": "Syncing a fork",
+          "url": "https://help.github.com/articles/syncing-a-fork/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "GIT"
+      ],
+      "dataSet": "git/git-data",
       "show": true
     },
     {
@@ -1316,6 +1341,27 @@
       "show": true
     },
     {
+      "title": "TSUN - TypeScript Upgraded Node",
+      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
+      "references": [
+        {
+          "label": "ng-book 2",
+          "url": "https://www.ng-book.com/2/"
+        }
+      ],
+      "repo": {
+        "label": "TypeScript REPL",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
+      },
+      "tags": [
+        "node"
+      ],
+      "dataSet": "node-modules/node-modules-data",
+      "show": true
+    },
+    {
       "title": "JSON Hyper-Schema",
       "description": "Hypertext definitions for JSON Schema",
       "references": [
@@ -1355,27 +1401,6 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
-      "show": true
-    },
-    {
-      "title": "TSUN - TypeScript Upgraded Node",
-      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
-      "references": [
-        {
-          "label": "ng-book 2",
-          "url": "https://www.ng-book.com/2/"
-        }
-      ],
-      "repo": {
-        "label": "TypeScript REPL",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
-      },
-      "tags": [
-        "node"
-      ],
-      "dataSet": "node-modules/node-modules-data",
       "show": true
     },
     {
