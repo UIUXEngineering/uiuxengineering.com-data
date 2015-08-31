@@ -61,7 +61,8 @@
     ],
     "dataSet": "",
     "show": true
-  },{
+  },
+  {
     "title": "Bacon.js",
     "description": "A small functional reactive programming lib for JavaScript. Turns your event spaghetti into clean and declarative feng shui bacon, by switching from imperative to functional. It's like replacing nested for-loops with functional programming concepts like map and filter. Stop working on individual events and work with event-streams instead. Transform your data with map and filter. Combine your data with merge and combine. Then switch to the heavier weapons and wield flatMap and combineTemplate like a boss. It's the _ of Events. Too bad the symbol ~ is not allowed in Javascript.",
     "references": [
@@ -77,11 +78,14 @@
       "url": "https://github.com/baconjs/bacon.js"
     },
     "tags": [
-      "Observable", "Asynchronous", "Data"
+      "Observable",
+      "Asynchronous",
+      "Data"
     ],
     "dataSet": "",
     "show": true
-  },{
+  },
+  {
     "title": "ReactiveX",
     "description": "An API for asynchronous programming with observable streams",
     "references": [
@@ -89,6 +93,7 @@
         "label": "ReactiveX",
         "url": "http://reactivex.io/"
       }
+
     ],
     "repo": {
       "label": "RxJs",
@@ -97,31 +102,42 @@
       "url": "https://github.com/Reactive-Extensions/RxJS"
     },
     "tags": [
-      "RxJs", "Observable", "Asynchronous", "Data"
+      "RxJs",
+      "Observable",
+      "Asynchronous",
+      "Data"
+    ],
+    "dataSet": "",
+    "show": true,
+    "tutorials": [
+      {
+        "label": "The introduction to Reactive Programming you've been missing",
+        "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754"
+      }
+    ]
+  },
+  {
+    "title": "immutable",
+    "description": "Immutable data cannot be changed once created, leading to much simpler application development, no defensive copying, and enabling advanced memoization and change detection techniques with simple logic. Persistent data presents a mutative API which does not update the data in-place, but instead always yields new updated data.",
+    "references": [
+      {
+        "label": "immutable",
+        "url": "https://facebook.github.io/immutable-js/"
+      }
+    ],
+    "repo": {
+      "label": "immutable",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/facebook/immutable-js/"
+    },
+    "tags": [
+      ""
     ],
     "dataSet": "",
     "show": true
-  }, {
-  "title": "immutable",
-  "description": "Immutable data cannot be changed once created, leading to much simpler application development, no defensive copying, and enabling advanced memoization and change detection techniques with simple logic. Persistent data presents a mutative API which does not update the data in-place, but instead always yields new updated data.",
-  "references": [
-    {
-      "label": "immutable",
-      "url": "https://facebook.github.io/immutable-js/"
-    }
-  ],
-  "repo": {
-    "label": "immutable",
-    "server": "https://github.com",
-    "repoType": "git",
-    "url": "https://github.com/facebook/immutable-js/"
   },
-  "tags": [
-    ""
-  ],
-  "dataSet": "",
-  "show": true
-},{
+  {
     "title": "Foundation 5 and AngularJS integration",
     "description": "",
     "references": [
@@ -143,28 +159,28 @@
     "show": true
   },
   {
-  "title": "Dgeni - Documentation Generator",
-  "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
-  "references": [
-    {
+    "title": "Dgeni - Documentation Generator",
+    "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
+    "references": [
+      {
+        "label": "Documentation Generator",
+        "url": "https://github.com/angular/dgeni"
+      },
+      {
+        "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
+        "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
+      }
+    ],
+    "repo": {
       "label": "Documentation Generator",
+      "server": "https://github.com",
+      "repoType": "git",
       "url": "https://github.com/angular/dgeni"
     },
-    {
-      "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
-      "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
-    }
-  ],
-  "repo": {
-    "label": "Documentation Generator",
-    "server": "https://github.com",
-    "repoType": "git",
-    "url": "https://github.com/angular/dgeni"
-  },
-  "tags": [
-    ""
-  ],
-  "dataSet": "",
-  "show": true
-}
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  }
 ]

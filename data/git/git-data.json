@@ -1,4 +1,24 @@
-[
+[{
+  "title": "fastclick",
+  "description": "Polyfill to remove click delays on browsers with touch UIs",
+  "references": [
+    {
+      "label": "fastclick",
+      "url": "https://github.com/ftlabs/fastclick"
+    }
+  ],
+  "repo": {
+    "label": "fastclick",
+    "server": "https://github.com",
+    "repoType": "git",
+    "url": "https://github.com/ftlabs/fastclick.git"
+  },
+  "tags": [
+    "polyfill"
+  ],
+  "dataSet": "",
+  "show": true
+},
   {
     "title": "Syncing a fork",
     "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",

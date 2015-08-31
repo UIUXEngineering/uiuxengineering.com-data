@@ -23,10 +23,10 @@ module.exports = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "label": { "type": "string" },
-                    "url": { "type": "string" }
+                    "label": {"type": "string"},
+                    "url": {"type": "string"}
                 },
-                "required": [ "label", "url" ]
+                "required": ["label", "url"]
             }
 
 
@@ -35,7 +35,7 @@ module.exports = {
             "type": "object",
             "description": "Code repository providing starter environment.",
             "properties": {
-                "label": { "type": "string" },
+                "label": {"type": "string"},
                 "server": {
                     "type": "string",
                     "description": "github, bitbucket, tfs"
@@ -44,20 +44,32 @@ module.exports = {
                     "type": "string",
                     "description": "git, svn"
                 },
-                "url": { "type": "string" }
+                "url": {"type": "string"}
             },
-            "required": [ "label", "server", "repoType", "url" ]
+            "required": ["label", "server", "repoType", "url"]
         },
         "tags": {
             "type": "array",
             "description": "taxonomy words or phrases",
-            "items": { "type": "string"}
+            "items": {"type": "string"}
         },
         "dataSet": {
             "type": "string",
             "description": "url to data json without the .json extension. For Example: angular2/angular2-articles"
         },
-        "show": {"type": "boolean"}
+        "show": {"type": "boolean"},
+        "tutorials": {
+            "type": "array",
+            "description": "List of tutorials",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "label": {"type": "string"},
+                    "url": {"type": "string"}
+                },
+                "required": ["label", "url"]
+            }
+        }
     },
-    "required": [ "title", "description", "references", "repo", "tags", "dataSet", "show" ]
+    "required": ["title", "description", "references", "repo", "tags", "dataSet", "show"]
 };

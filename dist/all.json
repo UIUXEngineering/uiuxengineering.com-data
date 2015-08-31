@@ -73,6 +73,25 @@
         },
         "show": {
           "type": "boolean"
+        },
+        "tutorials": {
+          "type": "array",
+          "description": "List of tutorials",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "url"
+            ]
+          }
         }
       },
       "required": [
@@ -116,6 +135,7 @@
     "node",
     "observable",
     "package manager",
+    "polyfill",
     "rxjs",
     "seed",
     "service",
@@ -619,6 +639,27 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
+      "title": "GitHub",
+      "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
+      "references": [
+        {
+          "label": "GitHub",
+          "url": "https://developer.github.com/v3/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
       "title": "Style Google Map",
       "description": "",
       "references": [
@@ -691,258 +732,6 @@
         "Learn"
       ],
       "dataSet": "articles/articles-data",
-      "show": true
-    },
-    {
-      "title": "jspm",
-      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
-      "references": [
-        {
-          "label": "jspm.io",
-          "url": "http://jspm.io/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "package manager"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "SystemJS",
-      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
-      "references": [
-        {
-          "label": "SystemJS",
-          "url": "https://github.com/systemjs/systemjs"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "ES6",
-        "loading",
-        "loader",
-        "AMD",
-        "CommonJS",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "Traceur",
-      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
-      "references": [
-        {
-          "label": "Traceur Compiler",
-          "url": "https://github.com/google/traceur-compiler"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "build",
-        "ES6",
-        "angular 2.x"
-      ],
-      "type": "",
-      "show": true,
-      "dataSet": "common/common-data"
-    },
-    {
-      "title": "async",
-      "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
-      "references": [
-        {
-          "label": "async",
-          "url": "http://reactivex.io/"
-        }
-      ],
-      "repo": {
-        "label": "async",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/caolan/async"
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "falcor",
-      "description": "A JavaScript library for efficient data fetching",
-      "references": [
-        {
-          "label": "falcor",
-          "url": "http://netflix.github.io/falcor/"
-        }
-      ],
-      "repo": {
-        "label": "falcor",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/Netflix/falcor"
-      },
-      "tags": [
-        "Data"
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "angular-meteor",
-      "description": "Build Realtime Web and Mobile Apps With Angular and Meteor",
-      "references": [
-        {
-          "label": "angular-meteor",
-          "url": "http://angular-meteor.com/"
-        }
-      ],
-      "repo": {
-        "label": "angular-meteor",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/Urigo/angular-meteor"
-      },
-      "tags": [
-        "Angular 1.x"
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "Bacon.js",
-      "description": "A small functional reactive programming lib for JavaScript. Turns your event spaghetti into clean and declarative feng shui bacon, by switching from imperative to functional. It's like replacing nested for-loops with functional programming concepts like map and filter. Stop working on individual events and work with event-streams instead. Transform your data with map and filter. Combine your data with merge and combine. Then switch to the heavier weapons and wield flatMap and combineTemplate like a boss. It's the _ of Events. Too bad the symbol ~ is not allowed in Javascript.",
-      "references": [
-        {
-          "label": "Bacon.js",
-          "url": "https://baconjs.github.io/"
-        }
-      ],
-      "repo": {
-        "label": "Bacon.js",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/baconjs/bacon.js"
-      },
-      "tags": [
-        "Observable",
-        "Asynchronous",
-        "Data"
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "ReactiveX",
-      "description": "An API for asynchronous programming with observable streams",
-      "references": [
-        {
-          "label": "ReactiveX",
-          "url": "http://reactivex.io/"
-        }
-      ],
-      "repo": {
-        "label": "RxJs",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/Reactive-Extensions/RxJS"
-      },
-      "tags": [
-        "RxJs",
-        "Observable",
-        "Asynchronous",
-        "Data"
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "immutable",
-      "description": "Immutable data cannot be changed once created, leading to much simpler application development, no defensive copying, and enabling advanced memoization and change detection techniques with simple logic. Persistent data presents a mutative API which does not update the data in-place, but instead always yields new updated data.",
-      "references": [
-        {
-          "label": "immutable",
-          "url": "https://facebook.github.io/immutable-js/"
-        }
-      ],
-      "repo": {
-        "label": "immutable",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/facebook/immutable-js/"
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "Foundation 5 and AngularJS integration",
-      "description": "",
-      "references": [
-        {
-          "label": "Foundation 5 and AngularJS integration",
-          "url": "http://foundation.zurb.com/forum/posts/19902-foundation-5-and-angularjs-integration"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "frameworks/frameworks-data",
-      "show": true
-    },
-    {
-      "title": "Dgeni - Documentation Generator",
-      "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
-      "references": [
-        {
-          "label": "Documentation Generator",
-          "url": "https://github.com/angular/dgeni"
-        },
-        {
-          "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
-          "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
-        }
-      ],
-      "repo": {
-        "label": "Documentation Generator",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/angular/dgeni"
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "frameworks/frameworks-data",
       "show": true
     },
     {
@@ -1096,6 +885,102 @@
       "show": true
     },
     {
+      "title": "jspm",
+      "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
+      "references": [
+        {
+          "label": "jspm.io",
+          "url": "http://jspm.io/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "package manager"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "references": [
+        {
+          "label": "SystemJS",
+          "url": "https://github.com/systemjs/systemjs"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "ES6",
+        "loading",
+        "loader",
+        "AMD",
+        "CommonJS",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "Traceur",
+      "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler that allows you to use features from the future today. Traceur supports ES6 as well as some experimental ES.next features.\n\nTraceur&apos;s goal is to inform the design of new JavaScript features which are only valuable if they allow you to write better code. Traceur allows you to try out new and proposed language features today, helping you say what you mean in your code while informing the standards process.",
+      "references": [
+        {
+          "label": "Traceur Compiler",
+          "url": "https://github.com/google/traceur-compiler"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "build",
+        "ES6",
+        "angular 2.x"
+      ],
+      "type": "",
+      "show": true,
+      "dataSet": "common/common-data"
+    },
+    {
+      "title": "fastclick",
+      "description": "Polyfill to remove click delays on browsers with touch UIs",
+      "references": [
+        {
+          "label": "fastclick",
+          "url": "https://github.com/ftlabs/fastclick"
+        }
+      ],
+      "repo": {
+        "label": "fastclick",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/ftlabs/fastclick.git"
+      },
+      "tags": [
+        "polyfill"
+      ],
+      "dataSet": "git/git-data",
+      "show": true
+    },
+    {
       "title": "Syncing a fork",
       "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
       "references": [
@@ -1114,6 +999,189 @@
         "GIT"
       ],
       "dataSet": "git/git-data",
+      "show": true
+    },
+    {
+      "title": "async",
+      "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
+      "references": [
+        {
+          "label": "async",
+          "url": "http://reactivex.io/"
+        }
+      ],
+      "repo": {
+        "label": "async",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/caolan/async"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "falcor",
+      "description": "A JavaScript library for efficient data fetching",
+      "references": [
+        {
+          "label": "falcor",
+          "url": "http://netflix.github.io/falcor/"
+        }
+      ],
+      "repo": {
+        "label": "falcor",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/Netflix/falcor"
+      },
+      "tags": [
+        "Data"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "angular-meteor",
+      "description": "Build Realtime Web and Mobile Apps With Angular and Meteor",
+      "references": [
+        {
+          "label": "angular-meteor",
+          "url": "http://angular-meteor.com/"
+        }
+      ],
+      "repo": {
+        "label": "angular-meteor",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/Urigo/angular-meteor"
+      },
+      "tags": [
+        "Angular 1.x"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Bacon.js",
+      "description": "A small functional reactive programming lib for JavaScript. Turns your event spaghetti into clean and declarative feng shui bacon, by switching from imperative to functional. It's like replacing nested for-loops with functional programming concepts like map and filter. Stop working on individual events and work with event-streams instead. Transform your data with map and filter. Combine your data with merge and combine. Then switch to the heavier weapons and wield flatMap and combineTemplate like a boss. It's the _ of Events. Too bad the symbol ~ is not allowed in Javascript.",
+      "references": [
+        {
+          "label": "Bacon.js",
+          "url": "https://baconjs.github.io/"
+        }
+      ],
+      "repo": {
+        "label": "Bacon.js",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/baconjs/bacon.js"
+      },
+      "tags": [
+        "Observable",
+        "Asynchronous",
+        "Data"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "ReactiveX",
+      "description": "An API for asynchronous programming with observable streams",
+      "references": [
+        {
+          "label": "ReactiveX",
+          "url": "http://reactivex.io/"
+        }
+      ],
+      "repo": {
+        "label": "RxJs",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/Reactive-Extensions/RxJS"
+      },
+      "tags": [
+        "RxJs",
+        "Observable",
+        "Asynchronous",
+        "Data"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true,
+      "tutorials": [
+        {
+          "label": "The introduction to Reactive Programming you've been missing",
+          "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754"
+        }
+      ]
+    },
+    {
+      "title": "immutable",
+      "description": "Immutable data cannot be changed once created, leading to much simpler application development, no defensive copying, and enabling advanced memoization and change detection techniques with simple logic. Persistent data presents a mutative API which does not update the data in-place, but instead always yields new updated data.",
+      "references": [
+        {
+          "label": "immutable",
+          "url": "https://facebook.github.io/immutable-js/"
+        }
+      ],
+      "repo": {
+        "label": "immutable",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/facebook/immutable-js/"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Foundation 5 and AngularJS integration",
+      "description": "",
+      "references": [
+        {
+          "label": "Foundation 5 and AngularJS integration",
+          "url": "http://foundation.zurb.com/forum/posts/19902-foundation-5-and-angularjs-integration"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Dgeni - Documentation Generator",
+      "description": "Flexible JavaScript documentation generator used by AngularJS, Protractor and other JS projects",
+      "references": [
+        {
+          "label": "Documentation Generator",
+          "url": "https://github.com/angular/dgeni"
+        },
+        {
+          "label": "Dgeni - Documentation generation on steroids by Pete Bacon Darwin at ng-europe 2014",
+          "url": "https://www.youtube.com/watch?v=PQNROxXajyQ&feature=youtu.be"
+        }
+      ],
+      "repo": {
+        "label": "Documentation Generator",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/angular/dgeni"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
       "show": true
     },
     {
@@ -1158,28 +1226,6 @@
         "Java"
       ],
       "dataSet": "java/java-data",
-      "show": true
-    },
-    {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
-      "references": [
-        {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "javascript",
-        "snippet"
-      ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -1245,6 +1291,28 @@
         "best practices"
       ],
       "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "references": [
+        {
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "javascript",
+        "snippet"
+      ],
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {

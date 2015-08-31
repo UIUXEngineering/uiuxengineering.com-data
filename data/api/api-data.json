@@ -1,15 +1,38 @@
 [
   {
+    "title": "GitHub",
+    "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
+    "references": [
+      {
+        "label": "GitHub",
+        "url": "https://developer.github.com/v3/"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "title": "Style Google Map",
     "description": "",
     "references": [
       {
         "label": "Stackoverflow",
         "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
-      },{
+      },
+      {
         "label": "Google Maps JavaScript API",
         "url": "https://developers.google.com/maps/documentation/javascript/styling"
-      },{
+      },
+      {
         "label": "How to use the Styled Maps Wizard",
         "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
       }
@@ -21,7 +44,8 @@
       "url": ""
     },
     "tags": [
-      "api", "google maps"
+      "api",
+      "google maps"
     ],
     "dataSet": "",
     "show": true
@@ -42,7 +66,8 @@
       "url": ""
     },
     "tags": [
-      "API", "Data Mining"
+      "API",
+      "Data Mining"
     ],
     "dataSet": "",
     "show": true
