@@ -64,8 +64,12 @@ module.exports = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "label": {"type": "string"},
-                    "url": {"type": "string"},
+                    "label": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    },
                     "code": {
                         "type": "array",
                         "description": "List of tutorials",
