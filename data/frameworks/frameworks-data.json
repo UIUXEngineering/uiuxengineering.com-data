@@ -1,5 +1,27 @@
 [
   {
+    "title": "RxJS-DOM",
+    "description": "HTML DOM Bindings for the Reactive Extensions for JavaScript http://reactive-extensions.github.com/rxjs-html/",
+    "references": [
+      {
+        "label": "RxJS-DOM",
+        "url": "https://github.com/Reactive-Extensions/RxJS-DOM.git"
+      }
+    ],
+    "repo": {
+      "label": "RxJS-DOM",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/Reactive-Extensions/RxJS-DOM.git",
+      "bower": "rx-dom"
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "title": "async",
     "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via npm install async, it can also be used directly in the browser.",
     "references": [

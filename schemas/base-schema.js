@@ -68,7 +68,10 @@ module.exports = {
                 "type": "string",
                 "description": "git, svn"
             },
-            "url": {"type": "string"}
+            "url": {"type": "string"},
+            "bower": {"type": "string"},
+            "npm": {"type": "string"},
+            "jspm": {"type": "string"}
         },
         "required": ["label", "server", "repoType", "url"]
     },

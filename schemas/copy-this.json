@@ -11,7 +11,10 @@
     "label": "",
     "server": "https://github.com",
     "repoType": "git",
-    "url": ""
+    "url": "",
+    "bower":"",
+    "npm": "",
+    "jspm": ""
   },
   "tags": [
     ""
