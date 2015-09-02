@@ -1,5 +1,28 @@
 [
   {
+    "title": "Separation of concerns",
+    "description": "In computer science, separation of concerns (SoC) is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. ",
+    "references": [
+      {
+        "label": "Separation of concerns",
+        "url": "https://en.wikipedia.org/wiki/Separation_of_concerns"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },{
     "title": "Observable Spec",
     "description": "An Observable is an object that can send multiple values to a consumer. An Observable has a subscribe method which accepts a generator and can send it any number of values.",
     "references": [

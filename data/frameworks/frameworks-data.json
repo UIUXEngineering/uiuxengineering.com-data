@@ -1,5 +1,28 @@
 [
   {
+    "title": "Flux",
+    "description": "Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.",
+    "references": [
+      {
+        "label": "Flux",
+        "url": "https://facebook.github.io/flux/"
+      }
+    ],
+    "repo": {
+      "label": "flux",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/facebook/flux",
+      "bower":"",
+      "npm": "flux",
+      "jspm": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },{
     "title": "RxJS-DOM",
     "description": "HTML DOM Bindings for the Reactive Extensions for JavaScript http://reactive-extensions.github.com/rxjs-html/",
     "references": [
