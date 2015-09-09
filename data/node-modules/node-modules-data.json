@@ -1,5 +1,29 @@
 [
   {
+    "title": "How to use package installed locally in node_modules?",
+    "description": "How do I use a local version of a module in node.js",
+    "references": [
+      {
+        "label": "Local NPM",
+        "url": "http://stackoverflow.com/questions/9679932/how-to-use-package-installed-locally-in-node-modules/15157360#15157360"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "title": "TSUN - TypeScript Upgraded Node",
     "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
     "references": [

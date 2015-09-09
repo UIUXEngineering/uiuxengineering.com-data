@@ -1374,6 +1374,29 @@
       "show": true
     },
     {
+      "title": "Async Dynamic Alias Task",
+      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "references": [
+        {
+          "label": "Async Dynamic Alias Task",
+          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "grunt",
+        "async",
+        "task runner"
+      ],
+      "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
       "title": "fastclick",
       "description": "Polyfill to remove click delays on browsers with touch UIs",
       "references": [
@@ -1413,29 +1436,6 @@
         "GIT"
       ],
       "dataSet": "git/git-data",
-      "show": true
-    },
-    {
-      "title": "Async Dynamic Alias Task",
-      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
-      "references": [
-        {
-          "label": "Async Dynamic Alias Task",
-          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "grunt",
-        "async",
-        "task runner"
-      ],
-      "dataSet": "grunt/grunt-2-data",
       "show": true
     },
     {
@@ -1589,6 +1589,30 @@
       "show": true
     },
     {
+      "title": "How to use package installed locally in node_modules?",
+      "description": "How do I use a local version of a module in node.js",
+      "references": [
+        {
+          "label": "Local NPM",
+          "url": "http://stackoverflow.com/questions/9679932/how-to-use-package-installed-locally-in-node-modules/15157360#15157360"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "node-modules/node-modules-data",
+      "show": true
+    },
+    {
       "title": "TSUN - TypeScript Upgraded Node",
       "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
       "references": [
@@ -1629,27 +1653,6 @@
         "Shell"
       ],
       "dataSet": "shellscript/shellscript-data",
-      "show": true
-    },
-    {
-      "title": "TypeScrpt",
-      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
-      "references": [
-        {
-          "label": "www.typescriptlang.org",
-          "url": "http://www.typescriptlang.org/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "typescript/typescript-data",
       "show": true
     },
     {
@@ -1770,6 +1773,27 @@
         "css"
       ],
       "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "TypeScrpt",
+      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
+      "references": [
+        {
+          "label": "www.typescriptlang.org",
+          "url": "http://www.typescriptlang.org/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "typescript/typescript-data",
       "show": true
     }
   ]
