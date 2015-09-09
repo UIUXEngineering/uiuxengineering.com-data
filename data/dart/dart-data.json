@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Dart",
+    "description": "Dart is an open-source, scalable programming language, with robust libraries and runtimes, for building web, server, and mobile apps.",
+    "references": [
+      {
+        "label": "Dart",
+        "url": "https://www.dartlang.org/downloads/"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      "dart"
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

@@ -139,6 +139,7 @@
     "code",
     "commonjs",
     "css",
+    "dart",
     "data",
     "data mining",
     "design patterns",
@@ -175,6 +176,7 @@
     "api/api-data",
     "articles/articles-data",
     "common/common-data",
+    "dart/dart-data",
     "design-patterns/design-patterns-data",
     "es6/es6-data",
     "frameworks/frameworks-data",
@@ -736,6 +738,29 @@
       "show": true
     },
     {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
       "title": "jspm",
       "description": "jspm is a package manager for the SystemJS universal module loader, built on top of the dynamic ES6 module loader",
       "references": [
@@ -809,6 +834,30 @@
       "type": "",
       "show": true,
       "dataSet": "common/common-data"
+    },
+    {
+      "title": "Dart",
+      "description": "Dart is an open-source, scalable programming language, with robust libraries and runtimes, for building web, server, and mobile apps.",
+      "references": [
+        {
+          "label": "Dart",
+          "url": "https://www.dartlang.org/downloads/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        "dart"
+      ],
+      "dataSet": "dart/dart-data",
+      "show": true
     },
     {
       "title": "Separation of concerns",
@@ -1006,29 +1055,6 @@
         ""
       ],
       "dataSet": "es6/es6-data",
-      "show": true
-    },
-    {
-      "title": "So You Want to Learn How to Code",
-      "description": "",
-      "references": [
-        {
-          "label": "So You Want to Learn How to Code",
-          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "LinkedIn",
-        "Code",
-        "Learn"
-      ],
-      "dataSet": "articles/articles-data",
       "show": true
     },
     {
@@ -1390,27 +1416,6 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
-      "show": true
-    },
-    {
       "title": "Async Dynamic Alias Task",
       "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
       "references": [
@@ -1434,12 +1439,12 @@
       "show": true
     },
     {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
       "references": [
         {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
         }
       ],
       "repo": {
@@ -1449,10 +1454,9 @@
         "url": ""
       },
       "tags": [
-        "javascript",
-        "snippet"
+        "Java"
       ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
+      "dataSet": "java/java-data",
       "show": true
     },
     {
@@ -1521,24 +1525,25 @@
       "show": true
     },
     {
-      "title": "TSUN - TypeScript Upgraded Node",
-      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
       "references": [
         {
-          "label": "ng-book 2",
-          "url": "https://www.ng-book.com/2/"
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
         }
       ],
       "repo": {
-        "label": "TypeScript REPL",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
       },
       "tags": [
-        "node"
+        "javascript",
+        "snippet"
       ],
-      "dataSet": "node-modules/node-modules-data",
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -1581,6 +1586,70 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
+      "show": true
+    },
+    {
+      "title": "TSUN - TypeScript Upgraded Node",
+      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
+      "references": [
+        {
+          "label": "ng-book 2",
+          "url": "https://www.ng-book.com/2/"
+        }
+      ],
+      "repo": {
+        "label": "TypeScript REPL",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
+      },
+      "tags": [
+        "node"
+      ],
+      "dataSet": "node-modules/node-modules-data",
+      "show": true
+    },
+    {
+      "title": "Shell Scripting Primer",
+      "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
+      "references": [
+        {
+          "label": "Shell Scripting Primer",
+          "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "Terminal",
+        "Shell"
+      ],
+      "dataSet": "shellscript/shellscript-data",
+      "show": true
+    },
+    {
+      "title": "TypeScrpt",
+      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
+      "references": [
+        {
+          "label": "www.typescriptlang.org",
+          "url": "http://www.typescriptlang.org/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "typescript/typescript-data",
       "show": true
     },
     {
@@ -1701,49 +1770,6 @@
         "css"
       ],
       "dataSet": "zurb-foundation/zurb-foundation-data",
-      "show": true
-    },
-    {
-      "title": "Shell Scripting Primer",
-      "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
-      "references": [
-        {
-          "label": "Shell Scripting Primer",
-          "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "Terminal",
-        "Shell"
-      ],
-      "dataSet": "shellscript/shellscript-data",
-      "show": true
-    },
-    {
-      "title": "TypeScrpt",
-      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
-      "references": [
-        {
-          "label": "www.typescriptlang.org",
-          "url": "http://www.typescriptlang.org/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "typescript/typescript-data",
       "show": true
     }
   ]
