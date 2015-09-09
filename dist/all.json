@@ -182,6 +182,7 @@
     "frameworks/frameworks-data",
     "git/git-data",
     "grunt/grunt-2-data",
+    "gulp/gulp-data",
     "java/java-data",
     "javascript-snippets/javascript-snippets-data",
     "javascript/javascript-data",
@@ -1374,29 +1375,6 @@
       "show": true
     },
     {
-      "title": "Async Dynamic Alias Task",
-      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
-      "references": [
-        {
-          "label": "Async Dynamic Alias Task",
-          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "grunt",
-        "async",
-        "task runner"
-      ],
-      "dataSet": "grunt/grunt-2-data",
-      "show": true
-    },
-    {
       "title": "fastclick",
       "description": "Polyfill to remove click delays on browsers with touch UIs",
       "references": [
@@ -1436,6 +1414,53 @@
         "GIT"
       ],
       "dataSet": "git/git-data",
+      "show": true
+    },
+    {
+      "title": "Async Dynamic Alias Task",
+      "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
+      "references": [
+        {
+          "label": "Async Dynamic Alias Task",
+          "url": "http://dontkry.com/posts/code/grunt-tricks2.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "grunt",
+        "async",
+        "task runner"
+      ],
+      "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "Splitting a gulpfile into multiple files",
+      "description": "In some projects, your gulpfile will get big enough that it's worth splitting it into multiple files, with one task per file. There are a couple approaches you can take to achieve this; both are pretty simple.",
+      "references": [
+        {
+          "label": "Splitting a gulpfile into multiple files",
+          "url": "http://macr.ae/article/splitting-gulpfile-multiple-files.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "gulp/gulp-data",
       "show": true
     },
     {
@@ -1656,6 +1681,27 @@
       "show": true
     },
     {
+      "title": "TypeScrpt",
+      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
+      "references": [
+        {
+          "label": "www.typescriptlang.org",
+          "url": "http://www.typescriptlang.org/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "typescript/typescript-data",
+      "show": true
+    },
+    {
       "title": "Best Practices for using Foundation with AngularJS",
       "description": "From what I can tell, it looks like Foundation for Apps (FA) was created because folks had issues making AngularJS and Foundation 5 play nicely together. <a href=\"http://zurb.com/article/1312/the-next-foundation\" target=\"_blank\" >The Next Foundation</a> explains why FA was created. Reddit's web_design zone has quite a few <a href=\"http://www.reddit.com/r/web_design/comments/26btc4/zurb_the_next_foundation_foundation_built_with/\" target=\"_blank\" >comments related to this article</a>.",
       "references": [
@@ -1773,27 +1819,6 @@
         "css"
       ],
       "dataSet": "zurb-foundation/zurb-foundation-data",
-      "show": true
-    },
-    {
-      "title": "TypeScrpt",
-      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
-      "references": [
-        {
-          "label": "www.typescriptlang.org",
-          "url": "http://www.typescriptlang.org/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "typescript/typescript-data",
       "show": true
     }
   ]
