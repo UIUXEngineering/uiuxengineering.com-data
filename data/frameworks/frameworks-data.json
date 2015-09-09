@@ -1,5 +1,82 @@
 [
   {
+    "title": "An Angular2 Todo App: First look at App Development in Angular2",
+    "description": "An Angular2 Todo App: First look at App Development in Angular2 Speaker: David East (Angular Core Contributor), @_davideast",
+    "references": [
+      {
+        "label": "An Angular2 Todo App",
+        "url": "https://www.youtube.com/watch?v=uD6Okha_Yj0"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      "youTube"
+    ],
+    "dataSet": "",
+    "show": true
+  },{
+    "title": "SystemJS",
+    "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+    "references": [
+      {
+        "label": "SystemJS",
+        "url": "https://github.com/systemjs/systemjs"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/systemjs/systemjs",
+      "bower":"",
+      "npm": "systemjs",
+      "jspm": ""
+    },
+    "tags": [
+      "Loader", "SystemJS"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
+    "title": "Gulp",
+    "description": "",
+    "references": [
+      {
+        "label": "Gulp",
+        "url": "https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md"
+      },{
+        "label": "Recipes",
+        "url": "https://github.com/gulpjs/gulp/tree/master/docs/recipes"
+      },{
+        "label": "List of articles",
+        "url": "https://github.com/gulpjs/gulp/blob/master/docs/README.md#articles"
+      }
+    ],
+    "repo": {
+      "label": "Gulp",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/gulpjs/gulp",
+      "bower":"",
+      "npm": "--save-dev gulp",
+      "jspm": ""
+    },
+    "tags": [
+      "Task Runner"
+    ],
+    "dataSet": "",
+    "show": true
+  },
+  {
     "title": "Flux",
     "description": "Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.",
     "references": [

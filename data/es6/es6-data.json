@@ -1,0 +1,26 @@
+[
+  {
+    "title": "es6-tools",
+    "description": "es6-tools",
+    "references": [
+      {
+        "label": "es6-tools",
+        "url": "https://github.com/addyosmani/es6-tools"
+      }
+    ],
+    "repo": {
+      "label": "es6-tools",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "https://github.com/addyosmani/es6-tools",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  }
+]

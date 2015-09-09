@@ -82,6 +82,15 @@
           },
           "url": {
             "type": "string"
+          },
+          "bower": {
+            "type": "string"
+          },
+          "npm": {
+            "type": "string"
+          },
+          "jspm": {
+            "type": "string"
           }
         },
         "required": [
@@ -153,8 +162,10 @@
     "service",
     "shell",
     "snippet",
+    "systemjs",
     "task runner",
     "terminal",
+    "youtube",
     "zurb foundation"
   ],
   "dataSetList": [
@@ -165,6 +176,7 @@
     "articles/articles-data",
     "common/common-data",
     "design-patterns/design-patterns-data",
+    "es6/es6-data",
     "frameworks/frameworks-data",
     "git/git-data",
     "grunt/grunt-2-data",
@@ -651,26 +663,76 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
-      "title": "So You Want to Learn How to Code",
-      "description": "",
+      "title": "GitHub",
+      "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
       "references": [
         {
-          "label": "So You Want to Learn How to Code",
-          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+          "label": "GitHub",
+          "url": "https://developer.github.com/v3/"
         }
       ],
       "repo": {
         "label": "",
-        "server": "",
-        "repoType": "",
+        "server": "https://github.com",
+        "repoType": "git",
         "url": ""
       },
       "tags": [
-        "LinkedIn",
-        "Code",
-        "Learn"
+        ""
       ],
-      "dataSet": "articles/articles-data",
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
+      "title": "Style Google Map",
+      "description": "",
+      "references": [
+        {
+          "label": "Stackoverflow",
+          "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
+        },
+        {
+          "label": "Google Maps JavaScript API",
+          "url": "https://developers.google.com/maps/documentation/javascript/styling"
+        },
+        {
+          "label": "How to use the Styled Maps Wizard",
+          "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "api",
+        "google maps"
+      ],
+      "dataSet": "api/api-data",
+      "show": true
+    },
+    {
+      "title": "AlchemyData News API ",
+      "description": "AlchemyDataNews API allows users to query daily news indexes of 250 to 300 thousand English language blog and new articles. The API also allows historical queries for the previous 60 days. Responses are in JSON or XML and use an API Key for authentication AlchemyAPI is a text mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation, etc.",
+      "references": [
+        {
+          "label": "AlchemyData News API ",
+          "url": "http://www.programmableweb.com/api/alchemydata-news"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "API",
+        "Data Mining"
+      ],
+      "dataSet": "api/api-data",
       "show": true
     },
     {
@@ -749,76 +811,27 @@
       "dataSet": "common/common-data"
     },
     {
-      "title": "GitHub",
-      "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
+      "title": "Separation of concerns",
+      "description": "In computer science, separation of concerns (SoC) is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. ",
       "references": [
         {
-          "label": "GitHub",
-          "url": "https://developer.github.com/v3/"
+          "label": "Separation of concerns",
+          "url": "https://en.wikipedia.org/wiki/Separation_of_concerns"
         }
       ],
       "repo": {
         "label": "",
         "server": "https://github.com",
         "repoType": "git",
-        "url": ""
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
       },
       "tags": [
         ""
       ],
-      "dataSet": "api/api-data",
-      "show": true
-    },
-    {
-      "title": "Style Google Map",
-      "description": "",
-      "references": [
-        {
-          "label": "Stackoverflow",
-          "url": "http://stackoverflow.com/questions/21302002/google-map-as-a-vector-map/21302964#21302964"
-        },
-        {
-          "label": "Google Maps JavaScript API",
-          "url": "https://developers.google.com/maps/documentation/javascript/styling"
-        },
-        {
-          "label": "How to use the Styled Maps Wizard",
-          "url": "http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "api",
-        "google maps"
-      ],
-      "dataSet": "api/api-data",
-      "show": true
-    },
-    {
-      "title": "AlchemyData News API ",
-      "description": "AlchemyDataNews API allows users to query daily news indexes of 250 to 300 thousand English language blog and new articles. The API also allows historical queries for the previous 60 days. Responses are in JSON or XML and use an API Key for authentication AlchemyAPI is a text mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation, etc.",
-      "references": [
-        {
-          "label": "AlchemyData News API ",
-          "url": "http://www.programmableweb.com/api/alchemydata-news"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "API",
-        "Data Mining"
-      ],
-      "dataSet": "api/api-data",
+      "dataSet": "design-patterns/design-patterns-data",
       "show": true
     },
     {
@@ -969,6 +982,180 @@
         "Design Patterns"
       ],
       "dataSet": "design-patterns/design-patterns-data",
+      "show": true
+    },
+    {
+      "title": "es6-tools",
+      "description": "es6-tools",
+      "references": [
+        {
+          "label": "es6-tools",
+          "url": "https://github.com/addyosmani/es6-tools"
+        }
+      ],
+      "repo": {
+        "label": "es6-tools",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/addyosmani/es6-tools",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "es6/es6-data",
+      "show": true
+    },
+    {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
+      "title": "An Angular2 Todo App: First look at App Development in Angular2",
+      "description": "An Angular2 Todo App: First look at App Development in Angular2 Speaker: David East (Angular Core Contributor), @_davideast",
+      "references": [
+        {
+          "label": "An Angular2 Todo App",
+          "url": "https://www.youtube.com/watch?v=uD6Okha_Yj0"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        "youTube"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "SystemJS",
+      "description": "Universal dynamic module loader - loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.",
+      "references": [
+        {
+          "label": "SystemJS",
+          "url": "https://github.com/systemjs/systemjs"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/systemjs/systemjs",
+        "bower": "",
+        "npm": "systemjs",
+        "jspm": ""
+      },
+      "tags": [
+        "Loader",
+        "SystemJS"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Gulp",
+      "description": "",
+      "references": [
+        {
+          "label": "Gulp",
+          "url": "https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md"
+        },
+        {
+          "label": "Recipes",
+          "url": "https://github.com/gulpjs/gulp/tree/master/docs/recipes"
+        },
+        {
+          "label": "List of articles",
+          "url": "https://github.com/gulpjs/gulp/blob/master/docs/README.md#articles"
+        }
+      ],
+      "repo": {
+        "label": "Gulp",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/gulpjs/gulp",
+        "bower": "",
+        "npm": "--save-dev gulp",
+        "jspm": ""
+      },
+      "tags": [
+        "Task Runner"
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "Flux",
+      "description": "Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.",
+      "references": [
+        {
+          "label": "Flux",
+          "url": "https://facebook.github.io/flux/"
+        }
+      ],
+      "repo": {
+        "label": "flux",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/facebook/flux",
+        "bower": "",
+        "npm": "flux",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
+      "show": true
+    },
+    {
+      "title": "RxJS-DOM",
+      "description": "HTML DOM Bindings for the Reactive Extensions for JavaScript http://reactive-extensions.github.com/rxjs-html/",
+      "references": [
+        {
+          "label": "RxJS-DOM",
+          "url": "https://github.com/Reactive-Extensions/RxJS-DOM.git"
+        }
+      ],
+      "repo": {
+        "label": "RxJS-DOM",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/Reactive-Extensions/RxJS-DOM.git",
+        "bower": "rx-dom"
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "frameworks/frameworks-data",
       "show": true
     },
     {
@@ -1203,6 +1390,27 @@
       "show": true
     },
     {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
+      "show": true
+    },
+    {
       "title": "Async Dynamic Alias Task",
       "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
       "references": [
@@ -1226,12 +1434,12 @@
       "show": true
     },
     {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
+      "title": "Generating random numbers in Javascript in a specific range.",
+      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
       "references": [
         {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
+          "label": "Generate number in specific range",
+          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
         }
       ],
       "repo": {
@@ -1241,9 +1449,10 @@
         "url": ""
       },
       "tags": [
-        "Java"
+        "javascript",
+        "snippet"
       ],
-      "dataSet": "java/java-data",
+      "dataSet": "javascript-snippets/javascript-snippets-data",
       "show": true
     },
     {
@@ -1312,25 +1521,24 @@
       "show": true
     },
     {
-      "title": "Generating random numbers in Javascript in a specific range.",
-      "description": "How can I generate a random whole number between two specified variables in Javascript, e.g. x = 4 and y = 8 would output any of 4, 5, 6, 7, 8?",
+      "title": "TSUN - TypeScript Upgraded Node",
+      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
       "references": [
         {
-          "label": "Generate number in specific range",
-          "url": "http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range"
+          "label": "ng-book 2",
+          "url": "https://www.ng-book.com/2/"
         }
       ],
       "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
+        "label": "TypeScript REPL",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
       },
       "tags": [
-        "javascript",
-        "snippet"
+        "node"
       ],
-      "dataSet": "javascript-snippets/javascript-snippets-data",
+      "dataSet": "node-modules/node-modules-data",
       "show": true
     },
     {
@@ -1373,70 +1581,6 @@
         "JSON"
       ],
       "dataSet": "json-schema/json-glossary-data",
-      "show": true
-    },
-    {
-      "title": "TSUN - TypeScript Upgraded Node",
-      "description": "TSUN, a TypeScript Upgraded Node, supports a REPL and interpreter for TypeScript. When invoked without ts file argument, TSUN works as a repl where you can type in expression. When you pass ts file to TSUN in command line argument, TSUN will automatically run it with invisible compilation.",
-      "references": [
-        {
-          "label": "ng-book 2",
-          "url": "https://www.ng-book.com/2/"
-        }
-      ],
-      "repo": {
-        "label": "TypeScript REPL",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/HerringtonDarkholme/typescript-repl"
-      },
-      "tags": [
-        "node"
-      ],
-      "dataSet": "node-modules/node-modules-data",
-      "show": true
-    },
-    {
-      "title": "Shell Scripting Primer",
-      "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
-      "references": [
-        {
-          "label": "Shell Scripting Primer",
-          "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "Terminal",
-        "Shell"
-      ],
-      "dataSet": "shellscript/shellscript-data",
-      "show": true
-    },
-    {
-      "title": "TypeScrpt",
-      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
-      "references": [
-        {
-          "label": "www.typescriptlang.org",
-          "url": "http://www.typescriptlang.org/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        ""
-      ],
-      "dataSet": "typescript/typescript-data",
       "show": true
     },
     {
@@ -1557,6 +1701,49 @@
         "css"
       ],
       "dataSet": "zurb-foundation/zurb-foundation-data",
+      "show": true
+    },
+    {
+      "title": "Shell Scripting Primer",
+      "description": "Shell scripts are a fundamental part of the OS X programming environment. As a ubiquitous feature of UNIX and UNIX-like operating systems, they represent a way of writing certain types of command-line tools in a way that works on a fairly broad spectrum of computing platforms.",
+      "references": [
+        {
+          "label": "Shell Scripting Primer",
+          "url": "https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "Terminal",
+        "Shell"
+      ],
+      "dataSet": "shellscript/shellscript-data",
+      "show": true
+    },
+    {
+      "title": "TypeScrpt",
+      "description": "TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.",
+      "references": [
+        {
+          "label": "www.typescriptlang.org",
+          "url": "http://www.typescriptlang.org/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "typescript/typescript-data",
       "show": true
     }
   ]
