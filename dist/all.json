@@ -666,6 +666,29 @@
       "dataSet": "angular2/angular2-seed-data"
     },
     {
+      "title": "So You Want to Learn How to Code",
+      "description": "",
+      "references": [
+        {
+          "label": "So You Want to Learn How to Code",
+          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "LinkedIn",
+        "Code",
+        "Learn"
+      ],
+      "dataSet": "articles/articles-data",
+      "show": true
+    },
+    {
       "title": "GitHub",
       "description": "This describes the resources that make up the official GitHub API v3. If you have any problems or requests please contact support.",
       "references": [
@@ -736,29 +759,6 @@
         "Data Mining"
       ],
       "dataSet": "api/api-data",
-      "show": true
-    },
-    {
-      "title": "So You Want to Learn How to Code",
-      "description": "",
-      "references": [
-        {
-          "label": "So You Want to Learn How to Code",
-          "url": "https://www.linkedin.com/pulse/so-you-want-learn-how-code-isis-wenger?trk=hp-feed-article-title-hpm"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "LinkedIn",
-        "Code",
-        "Learn"
-      ],
-      "dataSet": "articles/articles-data",
       "show": true
     },
     {
@@ -858,6 +858,30 @@
         "dart"
       ],
       "dataSet": "dart/dart-data",
+      "show": true
+    },
+    {
+      "title": "es6-tools",
+      "description": "es6-tools",
+      "references": [
+        {
+          "label": "es6-tools",
+          "url": "https://github.com/addyosmani/es6-tools"
+        }
+      ],
+      "repo": {
+        "label": "es6-tools",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "https://github.com/addyosmani/es6-tools",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "es6/es6-data",
       "show": true
     },
     {
@@ -1035,27 +1059,45 @@
       "show": true
     },
     {
-      "title": "es6-tools",
-      "description": "es6-tools",
+      "title": "fastclick",
+      "description": "Polyfill to remove click delays on browsers with touch UIs",
       "references": [
         {
-          "label": "es6-tools",
-          "url": "https://github.com/addyosmani/es6-tools"
+          "label": "fastclick",
+          "url": "https://github.com/ftlabs/fastclick"
         }
       ],
       "repo": {
-        "label": "es6-tools",
+        "label": "fastclick",
         "server": "https://github.com",
         "repoType": "git",
-        "url": "https://github.com/addyosmani/es6-tools",
-        "bower": "",
-        "npm": "",
-        "jspm": ""
+        "url": "https://github.com/ftlabs/fastclick.git"
       },
       "tags": [
-        ""
+        "polyfill"
       ],
-      "dataSet": "es6/es6-data",
+      "dataSet": "git/git-data",
+      "show": true
+    },
+    {
+      "title": "Syncing a fork",
+      "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
+      "references": [
+        {
+          "label": "Syncing a fork",
+          "url": "https://help.github.com/articles/syncing-a-fork/"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": ""
+      },
+      "tags": [
+        "GIT"
+      ],
+      "dataSet": "git/git-data",
       "show": true
     },
     {
@@ -1375,48 +1417,6 @@
       "show": true
     },
     {
-      "title": "fastclick",
-      "description": "Polyfill to remove click delays on browsers with touch UIs",
-      "references": [
-        {
-          "label": "fastclick",
-          "url": "https://github.com/ftlabs/fastclick"
-        }
-      ],
-      "repo": {
-        "label": "fastclick",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": "https://github.com/ftlabs/fastclick.git"
-      },
-      "tags": [
-        "polyfill"
-      ],
-      "dataSet": "git/git-data",
-      "show": true
-    },
-    {
-      "title": "Syncing a fork",
-      "description": "Sync a fork of a repository to keep it up-to-date with the upstream repository.",
-      "references": [
-        {
-          "label": "Syncing a fork",
-          "url": "https://help.github.com/articles/syncing-a-fork/"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "https://github.com",
-        "repoType": "git",
-        "url": ""
-      },
-      "tags": [
-        "GIT"
-      ],
-      "dataSet": "git/git-data",
-      "show": true
-    },
-    {
       "title": "Async Dynamic Alias Task",
       "description": "Extending the dynamic alias task, what if we wanted to programmatically control the flow of our tasks but required an asynchronous operation to do so? Such as including the SHA of our git controlled project in the destination file name. ",
       "references": [
@@ -1437,6 +1437,30 @@
         "task runner"
       ],
       "dataSet": "grunt/grunt-2-data",
+      "show": true
+    },
+    {
+      "title": "Gulp Recipes",
+      "description": "",
+      "references": [
+        {
+          "label": "Gulp Recipes",
+          "url": "https://github.com/gulpjs/gulp/tree/master/docs/recipes"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "https://github.com",
+        "repoType": "git",
+        "url": "",
+        "bower": "",
+        "npm": "",
+        "jspm": ""
+      },
+      "tags": [
+        ""
+      ],
+      "dataSet": "gulp/gulp-data",
       "show": true
     },
     {
@@ -1461,27 +1485,6 @@
         ""
       ],
       "dataSet": "gulp/gulp-data",
-      "show": true
-    },
-    {
-      "title": "JavaRanch",
-      "description": "a friendly place for Java greenhorns!",
-      "references": [
-        {
-          "label": "javaranch.com",
-          "url": "http://www.javaranch.com/index.jsp"
-        }
-      ],
-      "repo": {
-        "label": "",
-        "server": "",
-        "repoType": "",
-        "url": ""
-      },
-      "tags": [
-        "Java"
-      ],
-      "dataSet": "java/java-data",
       "show": true
     },
     {
@@ -1547,6 +1550,27 @@
         "best practices"
       ],
       "dataSet": "javascript/javascript-data",
+      "show": true
+    },
+    {
+      "title": "JavaRanch",
+      "description": "a friendly place for Java greenhorns!",
+      "references": [
+        {
+          "label": "javaranch.com",
+          "url": "http://www.javaranch.com/index.jsp"
+        }
+      ],
+      "repo": {
+        "label": "",
+        "server": "",
+        "repoType": "",
+        "url": ""
+      },
+      "tags": [
+        "Java"
+      ],
+      "dataSet": "java/java-data",
       "show": true
     },
     {

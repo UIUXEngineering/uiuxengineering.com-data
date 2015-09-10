@@ -1,5 +1,28 @@
 [
   {
+    "title": "Gulp Recipes",
+    "description": "",
+    "references": [
+      {
+        "label": "Gulp Recipes",
+        "url": "https://github.com/gulpjs/gulp/tree/master/docs/recipes"
+      }
+    ],
+    "repo": {
+      "label": "",
+      "server": "https://github.com",
+      "repoType": "git",
+      "url": "",
+      "bower":"",
+      "npm": "",
+      "jspm": ""
+    },
+    "tags": [
+      ""
+    ],
+    "dataSet": "",
+    "show": true
+  },{
     "title": "Splitting a gulpfile into multiple files",
     "description": "In some projects, your gulpfile will get big enough that it's worth splitting it into multiple files, with one task per file. There are a couple approaches you can take to achieve this; both are pretty simple.",
     "references": [
